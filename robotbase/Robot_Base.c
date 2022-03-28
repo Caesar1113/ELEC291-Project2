@@ -2,7 +2,7 @@
 #include <sys/attribs.h>
 #include <stdio.h>
 #include <stdlib.h>
- 
+#include <string.h> 
 // Configuration Bits (somehow XC32 takes care of this)
 #pragma config FNOSC = FRCPLL       // Internal Fast RC oscillator (8 MHz) w/ PLL
 #pragma config FPLLIDIV = DIV_2     // Divide FRC before PLL (now 4 MHz)
@@ -25,7 +25,15 @@
 #define NoCoinPeriod 92350.0
 
 
+#define LCD_D4 LATBbits.LATB15
+#define LCD_D5 LATBbits.LATB14
+#define LCD_D6 LATBbits.LATB13
+#define LCD_D7 LATBbits.LATB12
+#define LCD_RS LATAbits.LATA2 
+//RW is not connected for this code
+#define LCD_E  LATAbits.LATA3
 
+#define CHARS_PER_LINE 16
 
 volatile int ISR_pwm1=150, ISR_pwm2=150, ISR_cnt=0;
 
@@ -325,6 +333,101 @@ MoveBackward();
 	waitms(1000);
 
 }
+//............................................................lcd display...................
+int bitExtracted(int number, int k, int p) //needs an int
+{
+    return (((1 << k) - 1) & (number >> (p - 1)));
+}
+
+void pin_innit(void)
+{
+	TRISBbits.TRISB15 = 0;
+	TRISBbits.TRISB14 = 0;
+	TRISBbits.TRISB13 = 0;
+	TRISBbits.TRISB12 = 0;
+	TRISAbits.TRISA2 = 0;
+	TRISAbits.TRISA3 = 0;
+	
+	LATBbits.LATB15 = 0;
+	LATBbits.LATB14 = 0;
+	LATBbits.LATB13 = 0;                                                                                                                                          
+	LATBbits.LATB12 = 0;
+	LATAbits.LATA2 = 0; 
+	LATAbits.LATA3 = 0;
+	
+	LCD_D4 = 0;
+	LCD_D5 = 0;
+	LCD_D6 = 0;
+	LCD_D7 = 0;
+	
+	LCD_RS = 0;
+	LCD_E = 0;
+}
+
+void LCD_pulse(void){
+	LCD_E = 1;
+	waitms(1);
+	LCD_E = 0;
+}
+
+void LCD_command (unsigned char x)
+{
+	int number = x;
+	
+	LCD_D7= bitExtracted(number,1,8);
+	LCD_D6= bitExtracted(number,1,7);
+	LCD_D5= bitExtracted(number,1,6);
+	LCD_D4= bitExtracted(number,1,5);
+	LCD_pulse();
+	waitms(1);
+
+	LCD_D7=bitExtracted(number,1,4);
+	LCD_D6=bitExtracted(number,1,3);
+	LCD_D5=bitExtracted(number,1,2);
+	LCD_D4=bitExtracted(number,1,1);
+	LCD_pulse();
+}
+void WriteData (unsigned char x)
+{
+	LCD_RS=1;
+	LCD_command(x);
+	waitms(2);
+}
+
+void WriteCommand (unsigned char x)
+{
+	LCD_RS=0;
+	LCD_command(x);
+	waitms(5);
+}
+
+
+void LCD_4BIT (void)
+{
+	LCD_E=0; // Resting state of LCD's enable is zero
+	//LCD_RW=0; // We are only writing to the LCD in this program
+	waitms(20);
+	// First make sure the LCD is in 8-bit mode and then change to 4-bit mode
+	WriteCommand(0x33);
+	WriteCommand(0x33);
+	WriteCommand(0x32); // Change to 4-bit mode
+
+	// Configure the LCD
+	WriteCommand(0x28);
+	WriteCommand(0x0c);
+	WriteCommand(0x01); // Clear screen command (takes some time)
+	waitms(20); // Wait for clear screen command to finsih.
+}
+
+void LCDprint(char* string, unsigned char line, int clear)
+{
+	int j;
+
+	WriteCommand(line==2?0xc0:0x80);
+	waitms(5);
+	for(j=0; string[j]!=0; j++)	WriteData(string[j]);// Write the message
+	if(clear==1) for(; j<CHARS_PER_LINE; j++) WriteData(' '); // Clear the rest of the line
+}
 
 //...............................................................arm related.................................
 void MoveArm(){
@@ -381,7 +484,8 @@ int getCoin(){
 // In order to keep this as nimble as possible, avoid
 // using floating point or printf() on any of its forms!
 void main(void)
-{
+{	
+	unsigned char buf[8];
 	int EdgeCounter=0;
 	volatile unsigned long t=0;
     int adcval;
@@ -392,19 +496,22 @@ void main(void)
 	int EdgeDetected=0;
 	int CoinDetected=0;
 	volatile unsigned long CurrentPeriod=0;
-	
+	DDPCON = 0;
 	CFGCON = 0;
-  
+	int Coins=0;
     UART2Configure(115200);  // Configure UART2 for a baud rate of 115200
     ConfigurePins();
     SetupTimer1();
   
     ADCConf(); // Configure ADC
     
-    
-
+   	pin_innit();
+	LCD_4BIT();
+	WriteCommand(0x01);
 	while(1)
 	{
+		LCDprint("# of Coins:",1,1);
+		
 		EdgeCounter++;
 		EdgeDetected=getEdge(EdgeCounter);
 		
@@ -415,14 +522,21 @@ void main(void)
    		 MoveForward();
    		}
    		else{
+   		Coins=Coins+1;
    		Stop();
    		TurnDirectionForCoin();
    		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    		MoveArm();
    		StartMagnet();
-   		MoveForward();
-   		
+   		MoveForward();  		
    		}
+   		
+   		
+   		sprintf(buf,"%4.3f",Coins);
+		LCDprint(buf,2,1);
+
+   		
+   		
  //Turning if wall  		
 		if(EdgeDetected=0){
    		 MoveForward();
