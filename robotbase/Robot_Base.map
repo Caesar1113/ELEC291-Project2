@@ -1047,42 +1047,42 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x22dd
+.debug_info     0x00000000     0x22ef
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x1c0e Robot_Base.o
- .debug_info    0x00001c0e       0xf5 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x00001d03       0xcf d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
- .debug_info    0x00001dd2       0xd7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x00001ea9       0xf1 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x00001f9a       0xe9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
- .debug_info    0x00002083       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
- .debug_info    0x0000214b       0xca d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
- .debug_info    0x00002215       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_info    0x00000000     0x1c20 Robot_Base.o
+ .debug_info    0x00001c20       0xf5 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00001d15       0xcf d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_info    0x00001de4       0xd7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x00001ebb       0xf1 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x00001fac       0xe9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00002095       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_info    0x0000215d       0xca d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_info    0x00002227       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
 
-.debug_abbrev   0x00000000      0x460
+.debug_abbrev   0x00000000      0x44a
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x320 Robot_Base.o
- .debug_abbrev  0x00000320       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_abbrev  0x00000348       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
- .debug_abbrev  0x00000370       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x00000398       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
- .debug_abbrev  0x000003c0       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
- .debug_abbrev  0x000003e8       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
- .debug_abbrev  0x00000410       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
- .debug_abbrev  0x00000438       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_abbrev  0x00000000      0x30a Robot_Base.o
+ .debug_abbrev  0x0000030a       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x00000332       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x0000035a       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x00000382       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x000003aa       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x000003d2       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_abbrev  0x000003fa       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_abbrev  0x00000422       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
 
-.debug_line     0x00000000      0x707
+.debug_line     0x00000000      0x718
  *(.debug_line)
- .debug_line    0x00000000      0x231 Robot_Base.o
- .debug_line    0x00000231       0xa9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x000002da       0x96 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
- .debug_line    0x00000370       0x9a d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x0000040a       0xa7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
- .debug_line    0x000004b1       0xa8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
- .debug_line    0x00000559       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
- .debug_line    0x000005e8       0x90 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
- .debug_line    0x00000678        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
- .debug_line    0x00000678       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_line    0x00000000      0x242 Robot_Base.o
+ .debug_line    0x00000242       0xa9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x000002eb       0x96 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_line    0x00000381       0x9a d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000041b       0xa7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x000004c2       0xa8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000056a       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_line    0x000005f9       0x90 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_line    0x00000689        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .debug_line    0x00000689       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
 
 .debug_frame    0x00000000      0x3d0
  *(.debug_frame)

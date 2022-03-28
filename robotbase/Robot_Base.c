@@ -19,7 +19,11 @@
 
 
 #define EdgeVoltage 0.5
-#define CoinPeriod 400.0
+#define MinCoin1Period 19040
+#define MaxCoin1period 19060
+
+#define NoCoinPeriod 19000.0
+
 
 
 
@@ -322,13 +326,19 @@ MoveBackward();
 
 }
 
-
+//...............................................................arm related.................................
 void MoveArm(){
 
 	ISR_pwm1=220;
  	waitms(500);
    	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
    	waitms(1000);
+   	
+void StartMagnet(){
+	TRISBbits.TRISB4 = 1;
+	Waitms(3000);
+	TRISBbits.TRISB4 = 0;	
+}   	
 
 }
 //.................................................................Detection..........................
@@ -358,13 +368,15 @@ int getCoin(){
 		{
 			T=(CoinCounter*2.0)/(SYSCLK*100.0);
 			f=1/T;
-			if(T<CoinPeriod)
+			if(T<MinCoin1Period)
 				return 1;
 			else
 				return 0;
 		}
 		else return 0;
 }
+
+
 
 // In order to keep this as nimble as possible, avoid
 // using floating point or printf() on any of its forms!
@@ -407,6 +419,7 @@ void main(void)
    		TurnDirectionForCoin();
    		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    		MoveArm();
+   		StartMagnet();
    		MoveForward();
    		
    		}
