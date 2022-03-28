@@ -252,10 +252,19 @@ void ConfigurePins(void)
 void MoveArm(){
 
 	ISR_pwm1=220;
- 	waitms(500);
+ 	waitms(1000);
    	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
    	waitms(1000);
-}   	
+}  
+ 
+void ArmInit(){
+	ISR_pwm1=60;
+ 	waitms(1000);
+   	ISR_pwm2=200;   //picking up coins (might want to add longer delay)
+   	waitms(1000);
+} 
+ 
+ 	
 void StartMagnet(){
 	TRISBbits.TRISB4 = 1;
 	waitms(3000);
@@ -528,8 +537,12 @@ void main(void)
    		TurnDirectionForCoin();
    		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    		MoveArm();
+   		waitms(50);
+   		ArmInit();
    		StartMagnet();
-   		MoveForward();  		
+   		MoveForward(); 
+   		
+   		CoinDetected=0; 		
    		}
    		
    		
