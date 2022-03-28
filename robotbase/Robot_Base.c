@@ -18,7 +18,7 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 0.5
+#define EdgeVoltage 1.0
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
@@ -51,13 +51,13 @@ void __ISR(_TIMER_1_VECTOR, IPL5SOFT) Timer1_Handler(void)
 	}
 	if(ISR_cnt==ISR_pwm2)
 	{
-		LATBbits.LATB4 = 0;
+		LATAbits.LATA2 = 0;
 	}
 	if(ISR_cnt>=2000)
 	{
 		ISR_cnt=0; // 2000 * 10us=20ms
 		LATAbits.LATA3 = 1;
-		LATBbits.LATB4 = 1;
+		LATAbits.LATA2 = 1;
 	}
 }
 
@@ -294,7 +294,7 @@ int t=0;
 	TRISBbits.TRISB4=!TRISBbits.TRISB4;
 	}
 	
-	waitms(500);//Time needed to turn to pick a coin
+	waitms(100);//Time needed to turn to pick a coin
 }
 
 void TurnDirectionForWall(){
@@ -311,23 +311,23 @@ int t=0;
 	TRISBbits.TRISB4=!TRISBbits.TRISB4;
 	}
 	
-	waitms(500);//Time needed to turn to pick a coin
+	waitms(100);//Time needed to turn to pick a coin
 }
 
 void test(){
 
 MoveForward();	
-	waitms(5000);
+	waitms(1000);
 
 TurnDirectionForCoin();	
 
 	waitms(1000);
 	
 Stop();
-	waitms(500);
+	waitms(1000);
 	
 TurnDirectionForWall();
-	waitms(5000);
+	waitms(1000);
 	
 MoveBackward();
 	waitms(1000);
