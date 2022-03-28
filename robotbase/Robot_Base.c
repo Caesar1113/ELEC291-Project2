@@ -22,7 +22,7 @@
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 19000.0
+#define NoCoinPeriod 92350.0
 
 
 
@@ -333,14 +333,14 @@ void MoveArm(){
  	waitms(500);
    	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
    	waitms(1000);
-   	
+}   	
 void StartMagnet(){
 	TRISBbits.TRISB4 = 1;
-	Waitms(3000);
+	waitms(3000);
 	TRISBbits.TRISB4 = 0;	
 }   	
 
-}
+
 //.................................................................Detection..........................
 int getEdge(volatile unsigned long EdgeCounter){
 	EdgeCounter=0;
@@ -368,7 +368,7 @@ int getCoin(){
 		{
 			T=(CoinCounter*2.0)/(SYSCLK*100.0);
 			f=1/T;
-			if(T<MinCoin1Period)
+			if(T<NoCoinPeriod)
 				return 1;
 			else
 				return 0;
