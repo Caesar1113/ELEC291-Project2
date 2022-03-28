@@ -18,7 +18,7 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 1.0
+#define EdgeVoltage 0.5
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
@@ -248,6 +248,20 @@ void ConfigurePins(void)
 	
 	INTCONbits.MVEC = 1;*/
 	
+//...............................................................arm related.................................
+void MoveArm(){
+
+	ISR_pwm1=220;
+ 	waitms(500);
+   	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
+   	waitms(1000);
+}   	
+void StartMagnet(){
+	TRISBbits.TRISB4 = 1;
+	waitms(3000);
+	TRISBbits.TRISB4 = 0;	
+}   	
+
 
 
 
@@ -322,7 +336,8 @@ MoveForward();
 TurnDirectionForCoin();	
 
 	waitms(1000);
-	
+MoveArm();
+	waitms(1000);
 Stop();
 	waitms(1000);
 	
@@ -429,20 +444,6 @@ void LCDprint(char* string, unsigned char line, int clear)
 	if(clear==1) for(; j<CHARS_PER_LINE; j++) WriteData(' '); // Clear the rest of the line
 }
 
-//...............................................................arm related.................................
-void MoveArm(){
-
-	ISR_pwm1=220;
- 	waitms(500);
-   	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
-   	waitms(1000);
-}   	
-void StartMagnet(){
-	TRISBbits.TRISB4 = 1;
-	waitms(3000);
-	TRISBbits.TRISB4 = 0;	
-}   	
-
 
 //.................................................................Detection..........................
 int getEdge(volatile unsigned long EdgeCounter){
@@ -469,9 +470,9 @@ int getCoin(){
 	CoinCounter=GetPeriod(100);
 	if(CoinCounter>0)
 		{
-			T=(CoinCounter*2.0)/(SYSCLK*100.0);
-			f=1/T;
-			if(T<NoCoinPeriod)
+//			T=(CoinCounter*2.0)/(SYSCLK*100.0);
+//			f=1/T;
+			if(CoinCounter<NoCoinPeriod)
 				return 1;
 			else
 				return 0;
@@ -551,7 +552,7 @@ void main(void)
 	
 	
 
-		test();	
+//		test();	
 	
 	
 	
