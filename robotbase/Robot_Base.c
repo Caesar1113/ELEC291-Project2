@@ -22,7 +22,7 @@
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 92350.0
+#define NoCoinPeriod 91400.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -35,7 +35,7 @@
 
 #define CHARS_PER_LINE 16
 
-volatile int ISR_pwm1=150, ISR_pwm2=150, ISR_cnt=0;
+volatile int ISR_pwm1=80, ISR_pwm2=150, ISR_cnt=0;
 
 // The Interrupt Service Routine for timer 1 is used to generate one or more standard
 // hobby servo signals.  The servo signal has a fixed period of 20ms and a pulse width
@@ -47,17 +47,17 @@ void __ISR(_TIMER_1_VECTOR, IPL5SOFT) Timer1_Handler(void)
 	ISR_cnt++;
 	if(ISR_cnt==ISR_pwm1)
 	{
-		LATAbits.LATA3 = 0;
+		LATBbits.LATB15 = 0;
 	}
 	if(ISR_cnt==ISR_pwm2)
 	{
-		LATAbits.LATA2 = 0;
+		LATBbits.LATB14 = 0;
 	}
-	if(ISR_cnt>=2000)
+	if(ISR_cnt>=5000)
 	{
 		ISR_cnt=0; // 2000 * 10us=20ms
-		LATAbits.LATA3 = 1;
-		LATAbits.LATA2 = 1;
+		LATBbits.LATB15 = 1;
+		LATBbits.LATB14 = 1;
 	}
 }
 
@@ -251,23 +251,36 @@ void ConfigurePins(void)
 //...............................................................arm related.................................
 void MoveArm(){
 
-	ISR_pwm1=220;
- 	waitms(1000);
-   	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
-   	waitms(1000);
+	  ISR_pwm1=300;//pwm1 up/down//bottom angle
+      waitms(1000);//pw2 left/right
+      ISR_pwm2=200;   //picking up coins (might want to add longer delay) (seep left
+      waitms(1000);
+      ISR_pwm2=120;
+      waitms(1000);
+      ISR_pwm1=80;
+      waitms(1000);
+      ISR_pwm2=80;
+      waitms(1000);
+      ISR_pwm1=140;
+      waitms(1000);
 }  
  
 void ArmInit(){
-	ISR_pwm1=60;
+
+
+	waitms(1000);
+	ISR_pwm1=120;
  	waitms(1000);
-   	ISR_pwm2=200;   //picking up coins (might want to add longer delay)
-   	waitms(1000);
+   	ISR_pwm2=120;   //picking up coins (might want to add longer delay)
+ 	waitms(1000);
+ 	
+ 	
 } 
  
  	
 void StartMagnet(){
 	TRISBbits.TRISB4 = 1;
-	waitms(3000);
+	waitms(5000);
 	TRISBbits.TRISB4 = 0;	
 }   	
 
@@ -306,16 +319,16 @@ void Stop(){
 void TurnDirectionForCoin(){
 //wheel 1
 
-int t=0;
+// int t=0;
 	TRISAbits.TRISA0 = 1;
 	TRISAbits.TRISA1 = 0;
 //wheel 2
 	TRISBbits.TRISB0 = 1; // pin  4 of DIP28
 	TRISBbits.TRISB1 = 0; // pin  5 of DIP28
 	
-	for(t=0;t<=5000;t++){
-	TRISBbits.TRISB4=!TRISBbits.TRISB4;
-	}
+//	for(t=0;t<=5000;t++){
+//	TRISBbits.TRISB4=!TRISBbits.TRISB4;
+//	}
 	
 	waitms(100);//Time needed to turn to pick a coin
 }
@@ -323,16 +336,16 @@ int t=0;
 void TurnDirectionForWall(){
 //wheel 1
 
-int t=0;
+//	int t=0;
 	TRISAbits.TRISA0 = 1;
 	TRISAbits.TRISA1 = 0;
 //wheel 2
 	TRISBbits.TRISB0 = 1; // pin  4 of DIP28
 	TRISBbits.TRISB1 = 0; // pin  5 of DIP28
 	
-	for(t=0;t<=5000;t++){
-	TRISBbits.TRISB4=!TRISBbits.TRISB4;
-	}
+//	for(t=0;t<=5000;t++){
+//	TRISBbits.TRISB4=!TRISBbits.TRISB4;
+//	}
 	
 	waitms(100);//Time needed to turn to pick a coin
 }
@@ -477,6 +490,7 @@ int getCoin(){
 	long int CoinCounter=0;
 	float T, f;
 	CoinCounter=GetPeriod(100);
+	printf("%d\r",CoinCounter);
 	if(CoinCounter>0)
 		{
 //			T=(CoinCounter*2.0)/(SYSCLK*100.0);
@@ -486,9 +500,9 @@ int getCoin(){
 			else
 				return 0;
 		}
-		else return 0;
+	else 
+		return 0;
 }
-
 
 
 // In order to keep this as nimble as possible, avoid
@@ -511,10 +525,8 @@ void main(void)
 	int Coins=0;
     UART2Configure(115200);  // Configure UART2 for a baud rate of 115200
     ConfigurePins();
-    SetupTimer1();
-  
-    ADCConf(); // Configure ADC
-    
+    SetupTimer1(); 
+    ADCConf(); // Configure ADC    
    	pin_innit();
 	LCD_4BIT();
 	WriteCommand(0x01);
@@ -526,12 +538,11 @@ void main(void)
 		EdgeDetected=getEdge(EdgeCounter);
 		
 		CoinDetected=getCoin();
+		printf("%d\n",CoinDetected);
+//..............................................main function
 
 //turning to pick coin	
-		if(CoinDetected=0){
-   		 MoveForward();
-   		}
-   		else{
+		if(CoinDetected=1){
    		Coins=Coins+1;
    		Stop();
    		TurnDirectionForCoin();
@@ -542,7 +553,11 @@ void main(void)
    		StartMagnet();
    		MoveForward(); 
    		
-   		CoinDetected=0; 		
+   		CoinDetected=0;    		 
+   		}
+   		else{
+
+   		MoveForward();		
    		}
    		
    		
@@ -566,9 +581,27 @@ void main(void)
 	
 
 //		test();	
-	
-	
-	
+//...........................................arm test function...................../
+//MoveArm();
+//waitms(4000);
+//ArmInit();
+//waitms(1000)
+//	if (CoinDetected=0){
+//	Stop();
+//	StartMagnet();
+//	}
+//	else{
+//	ArmInit();
+//	waitms(1000);
+//	MoveArm();
+//
+//	StartMagnet();
+//	waitms(1000);
+
+//	ArmInit();
+//	waitms(1000);
+//	CoinDetected=0;	
+//	}
 	
 	
 
