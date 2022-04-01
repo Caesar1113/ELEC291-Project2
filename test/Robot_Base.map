@@ -1,0 +1,2309 @@
+
+Optional file libmchp_peripheral.a not found
+
+Optional file libmchp_peripheral_32MX130F064B.a not found
+Archive member included because of file (symbol)
+
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o (_bootstrap_exception_handler)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o (_on_reset)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o (_on_bootstrap)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-nmi-handler.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o (_nmi_handler)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o (_general_exception_context)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_0)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_1)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_2)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_3)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_5)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_6)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_7)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_8)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_9)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_10)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_11)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_12)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_13)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_14)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_15)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_16)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_17)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_18)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_19)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_20)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_21)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_22)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_23)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_24)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_25)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_26)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_27)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_28)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_29)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_30)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_31)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_32)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_33)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_34)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_35)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_36)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_37)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_38)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_39)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_40)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_41)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_42)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o (__vector_dispatch_43)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o) (_general_exception_handler)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o) (_DefaultInterrupt)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+                              Robot_Base.o (fpdiv)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+                              Robot_Base.o (fpmul)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+                              Robot_Base.o (fpcmp)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+                              Robot_Base.o (sitofp)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+                              Robot_Base.o (_libc_data)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o) (_filbuf_simple)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+                              Robot_Base.o (fputc)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+                              Robot_Base.o (_printf_cdnopuxX)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+                              Robot_Base.o (_sprintf_fF)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o) (errno)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdnopuxX.eo)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo) (_do_print_cdnopuxX)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_fF.eo)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo) (_do_print_fF)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo) (_io_strfuncs)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdnopuxX.eo) (strlen)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o) (_mon_getc)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o) (_mon_write)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o) (__XC_UART)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o) (_mon_putc)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_fF.eo) (fpadd)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_fF.eo) (modff)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_fF.eo) (fptosi)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdnopuxX.eo) (__udivdi3)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdnopuxX.eo) (__umoddi3)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+                              d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o) (__clz_tab)
+d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+                              (_do_print_cdfFnopuxX)
+
+Microchip PIC32 Memory-Usage Report
+
+kseg0 Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text                   0x9d000000          0xe80        3712  App's exec code 
+.text._do_print_cdfFnop 0x9d000e80          0x72c        1836   
+.text                   0x9d0015ac          0x714        1812  App's exec code 
+.text._fconvert         0x9d001cc0          0x304         772   
+.text.fpsubadd          0x9d001fc4          0x278         632   
+.text.fp32div           0x9d00223c          0x230         560   
+.text.fp32mul           0x9d00246c          0x1bc         444   
+.dinit                  0x9d002628          0x160         352   
+.rodata                 0x9d002788          0x100         256  Read-only const 
+.text.general_exception 0x9d002888           0xdc         220   
+.text.libm              0x9d002964           0xd4         212   
+.text.fpcmp             0x9d002a38           0x9c         156   
+.text._mon_getc         0x9d002ad4           0x88         136   
+.text.fptoli            0x9d002b5c           0x80         128   
+.text._outcnvrt         0x9d002bdc           0x7c         124   
+.text._mon_putc         0x9d002c58           0x78         120   
+.text._flsbuf_simple    0x9d002cd0           0x74         116   
+.text.sitofp            0x9d002d44           0x60          96   
+.text.main_entry        0x9d002da4           0x54          84   
+.text.fputc             0x9d002df8           0x4c          76   
+.text._bootstrap_except 0x9d002e44           0x48          72   
+.text._general_exceptio 0x9d002e8c           0x48          72   
+.vector_default         0x9d002ed4           0x48          72   
+.rodata                 0x9d002f1c           0x48          72  Read-only const 
+.text                   0x9d002f64           0x44          68  App's exec code 
+.text.strlen            0x9d002fa8           0x40          64   
+.text._fflush_simple    0x9d002fe8           0x3c          60   
+.text._fwrite_simple    0x9d003024           0x3c          60   
+.text._sprintf_fF       0x9d003060           0x38          56   
+.text.repl              0x9d003098           0x2c          44   
+.text.__sputn           0x9d0030c4           0x24          36   
+.text._filbuf_simple    0x9d0030e8           0x20          32   
+.rodata                 0x9d003108           0x1c          28  Read-only const 
+.text._fsync_simple     0x9d003124           0x1c          28   
+.text._printf_cdnopuxX  0x9d003140           0x1c          28   
+.text._mon_write        0x9d00315c           0x1c          28   
+.text                   0x9d003178           0x18          24  App's exec code 
+.rodata                 0x9d003190           0x14          20  Read-only const 
+.text.putchar           0x9d0031a4           0x14          20   
+.rodata                 0x9d0031b8           0x14          20  Read-only const 
+.text._io_exit          0x9d0031cc           0x20          32   
+.text.putc              0x9d0031ec            0xc          12   
+.text._vfprintf_cdfFnop 0x9d0031f8            0xc          12   
+.text._filbuf_string    0x9d003204            0x8           8   
+.text._on_reset         0x9d00320c            0x4           4   
+.text._on_bootstrap     0x9d003210            0x4           4   
+.text._flsbuf_string    0x9d003214            0x4           4   
+.text._fflush_string    0x9d003218            0x4           4   
+.text._fwrite_string    0x9d00321c            0x4           4   
+.text._fsync_string     0x9d003220            0x4           4   
+      Total kseg0_program_mem used  :      0x3224       12836  20.9% of 0xf000
+
+kseg0 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+         Total kseg0_boot_mem used  :           0           0  
+
+Exception-Memory Usage 
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.app_excpt              0x9d00f180           0x10          16  General-Exception 
+.vector_0               0x9d00f200            0x8           8  Interrupt Vector 0 
+.vector_1               0x9d00f220            0x8           8  Interrupt Vector 1 
+.vector_2               0x9d00f240            0x8           8  Interrupt Vector 2 
+.vector_3               0x9d00f260            0x8           8  Interrupt Vector 3 
+.vector_4               0x9d00f280            0x8           8  Interrupt Vector 4 
+.vector_5               0x9d00f2a0            0x8           8  Interrupt Vector 5 
+.vector_6               0x9d00f2c0            0x8           8  Interrupt Vector 6 
+.vector_7               0x9d00f2e0            0x8           8  Interrupt Vector 7 
+.vector_8               0x9d00f300            0x8           8  Interrupt Vector 8 
+.vector_9               0x9d00f320            0x8           8  Interrupt Vector 9 
+.vector_10              0x9d00f340            0x8           8  Interrupt Vector 10 
+.vector_11              0x9d00f360            0x8           8  Interrupt Vector 11 
+.vector_12              0x9d00f380            0x8           8  Interrupt Vector 12 
+.vector_13              0x9d00f3a0            0x8           8  Interrupt Vector 13 
+.vector_14              0x9d00f3c0            0x8           8  Interrupt Vector 14 
+.vector_15              0x9d00f3e0            0x8           8  Interrupt Vector 15 
+.vector_16              0x9d00f400            0x8           8  Interrupt Vector 16 
+.vector_17              0x9d00f420            0x8           8  Interrupt Vector 17 
+.vector_18              0x9d00f440            0x8           8  Interrupt Vector 18 
+.vector_19              0x9d00f460            0x8           8  Interrupt Vector 19 
+.vector_20              0x9d00f480            0x8           8  Interrupt Vector 20 
+.vector_21              0x9d00f4a0            0x8           8  Interrupt Vector 21 
+.vector_22              0x9d00f4c0            0x8           8  Interrupt Vector 22 
+.vector_23              0x9d00f4e0            0x8           8  Interrupt Vector 23 
+.vector_24              0x9d00f500            0x8           8  Interrupt Vector 24 
+.vector_25              0x9d00f520            0x8           8  Interrupt Vector 25 
+.vector_26              0x9d00f540            0x8           8  Interrupt Vector 26 
+.vector_27              0x9d00f560            0x8           8  Interrupt Vector 27 
+.vector_28              0x9d00f580            0x8           8  Interrupt Vector 28 
+.vector_29              0x9d00f5a0            0x8           8  Interrupt Vector 29 
+.vector_30              0x9d00f5c0            0x8           8  Interrupt Vector 30 
+.vector_31              0x9d00f5e0            0x8           8  Interrupt Vector 31 
+.vector_32              0x9d00f600            0x8           8  Interrupt Vector 32 
+.vector_33              0x9d00f620            0x8           8  Interrupt Vector 33 
+.vector_34              0x9d00f640            0x8           8  Interrupt Vector 34 
+.vector_35              0x9d00f660            0x8           8  Interrupt Vector 35 
+.vector_36              0x9d00f680            0x8           8  Interrupt Vector 36 
+.vector_37              0x9d00f6a0            0x8           8  Interrupt Vector 37 
+.vector_38              0x9d00f6c0            0x8           8  Interrupt Vector 38 
+.vector_39              0x9d00f6e0            0x8           8  Interrupt Vector 39 
+.vector_40              0x9d00f700            0x8           8  Interrupt Vector 40 
+.vector_41              0x9d00f720            0x8           8  Interrupt Vector 41 
+.vector_42              0x9d00f740            0x8           8  Interrupt Vector 42 
+.vector_43              0x9d00f760            0x8           8  Interrupt Vector 43 
+          Total exception_mem used  :       0x170         368  9.0% of 0x1000
+
+kseg1 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.reset                  0xbfc00000          0x1e4         484  Reset handler 
+.bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
+         Total kseg1_boot_mem used  :       0x1f4         500  42.8% of 0x490
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0x3588       13704  20.5% of 0x10490
+        --------------------------------------------------------------------------
+
+
+kseg1 Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.sdata                  0xa0000000           0x10          16  Small init data 
+.sbss                   0xa0000010            0x8           8  Small uninit data 
+.data                   0xa0000018           0xd4         212  Initialized data 
+.bss                    0xa00000ec           0x88         136  Uninitialized data 
+.data                   0xa0000174           0x14          20  Initialized data 
+         Total kseg1_data_mem used  :       0x188         392  2.4% of 0x4000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x188         392  2.4% of 0x4000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0xa0000190           0x10          16  Reserved for heap 
+stack                   0xa00001b8         0x3e40       15936  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+ .reginfo       0x00000000       0x18 Robot_Base.o
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+ .discard       0x00000000       0xb0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\pic32_software_reset.o
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\processor.o
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-nmi-handler.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+kseg0_program_mem 0x9d000000         0x0000f000         xr
+exception_mem    0x9d00f000         0x00001000
+debug_exec_mem   0x9fc00490         0x00000760
+kseg0_boot_mem   0x9fc00490         0x00000000
+kseg1_boot_mem   0xbfc00000         0x00000490
+config3          0xbfc00bf0         0x00000004
+config2          0xbfc00bf4         0x00000004
+config1          0xbfc00bf8         0x00000004
+config0          0xbfc00bfc         0x00000004
+kseg1_data_mem   0xa0000000         0x00004000         w !x
+sfrs             0xbf800000         0x00100000
+configsfrs       0xbfc00bf0         0x00000010
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+LOAD Robot_Base.o
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\pic32_software_reset.o
+                0x00000400                PROVIDE (_min_stack_size, 0x400)
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\processor.o
+START GROUP
+LOAD libmchp_peripheral.a
+END GROUP
+START GROUP
+LOAD libmchp_peripheral_32MX130F064B.a
+END GROUP
+                0x00000001                PROVIDE (_vector_spacing, 0x1)
+                0x9d00f000                PROVIDE (_ebase_address, 0x9d00f000)
+                0xbfc00000                _RESET_ADDR = 0xbfc00000
+                0xbfc00380                _BEV_EXCPT_ADDR = 0xbfc00380
+                0xbfc00480                _DBG_EXCPT_ADDR = 0xbfc00480
+                0x9fc00490                _DBG_CODE_ADDR = 0x9fc00490
+                0x00000760                _DBG_CODE_SIZE = 0x760
+                0x9d00f180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+
+.config_BFC00BF0
+ *(.config_BFC00BF0)
+
+.config_BFC00BF4
+                0xbfc00bf4        0x4
+ *(.config_BFC00BF4)
+ .config_BFC00BF4
+                0xbfc00bf4        0x4 Robot_Base.o
+
+.config_BFC00BF8
+                0xbfc00bf8        0x4
+ *(.config_BFC00BF8)
+ .config_BFC00BF8
+                0xbfc00bf8        0x4 Robot_Base.o
+
+.config_BFC00BFC
+ *(.config_BFC00BFC)
+                0xbfc02000                PROVIDE (_DBG_CODE_ADDR, 0xbfc02000)
+                0x00000ff0                PROVIDE (_DBG_CODE_SIZE, 0xff0)
+
+.reset          0xbfc00000      0x1e4
+ *(.reset)
+ .reset         0xbfc00000        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+                0xbfc00000                _reset
+ *(.reset.startup)
+ .reset.startup
+                0xbfc00008      0x1dc d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+.bev_excpt      0xbfc00380       0x10
+ *(.bev_handler)
+ .bev_handler   0xbfc00380       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+.dbg_excpt      0xbfc00480        0x0
+                0xbfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
+
+.dbg_code       0x9fc00490        0x0
+                0x9fc00490                . = (. + DEFINED (_DEBUGGER)?_DBG_CODE_SIZE:0x0)
+
+.app_excpt      0x9d00f180       0x10
+ *(.gen_handler)
+ .gen_handler   0x9d00f180       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+.vector_0       0x9d00f200        0x8
+ *(.vector_0)
+ .vector_0      0x9d00f200        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+                0x9d00f200                __vector_dispatch_0
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x5))), function at exception vector 0 too large)
+
+.vector_1       0x9d00f220        0x8
+ *(.vector_1)
+ .vector_1      0x9d00f220        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+                0x9d00f220                __vector_dispatch_1
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x5))), function at exception vector 1 too large)
+
+.vector_2       0x9d00f240        0x8
+ *(.vector_2)
+ .vector_2      0x9d00f240        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+                0x9d00f240                __vector_dispatch_2
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x5))), function at exception vector 2 too large)
+
+.vector_3       0x9d00f260        0x8
+ *(.vector_3)
+ .vector_3      0x9d00f260        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+                0x9d00f260                __vector_dispatch_3
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x5))), function at exception vector 3 too large)
+
+.vector_4       0x9d00f280        0x8
+ *(.vector_4)
+ .vector_4      0x9d00f280        0x8 Robot_Base.o
+                0x9d00f280                __vector_dispatch_4
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x5))), function at exception vector 4 too large)
+
+.vector_5       0x9d00f2a0        0x8
+ *(.vector_5)
+ .vector_5      0x9d00f2a0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+                0x9d00f2a0                __vector_dispatch_5
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x5))), function at exception vector 5 too large)
+
+.vector_6       0x9d00f2c0        0x8
+ *(.vector_6)
+ .vector_6      0x9d00f2c0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+                0x9d00f2c0                __vector_dispatch_6
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x5))), function at exception vector 6 too large)
+
+.vector_7       0x9d00f2e0        0x8
+ *(.vector_7)
+ .vector_7      0x9d00f2e0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+                0x9d00f2e0                __vector_dispatch_7
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x5))), function at exception vector 7 too large)
+
+.vector_8       0x9d00f300        0x8
+ *(.vector_8)
+ .vector_8      0x9d00f300        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+                0x9d00f300                __vector_dispatch_8
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x5))), function at exception vector 8 too large)
+
+.vector_9       0x9d00f320        0x8
+ *(.vector_9)
+ .vector_9      0x9d00f320        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+                0x9d00f320                __vector_dispatch_9
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x5))), function at exception vector 9 too large)
+
+.vector_10      0x9d00f340        0x8
+ *(.vector_10)
+ .vector_10     0x9d00f340        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+                0x9d00f340                __vector_dispatch_10
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x5))), function at exception vector 10 too large)
+
+.vector_11      0x9d00f360        0x8
+ *(.vector_11)
+ .vector_11     0x9d00f360        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+                0x9d00f360                __vector_dispatch_11
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x5))), function at exception vector 11 too large)
+
+.vector_12      0x9d00f380        0x8
+ *(.vector_12)
+ .vector_12     0x9d00f380        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+                0x9d00f380                __vector_dispatch_12
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x5))), function at exception vector 12 too large)
+
+.vector_13      0x9d00f3a0        0x8
+ *(.vector_13)
+ .vector_13     0x9d00f3a0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+                0x9d00f3a0                __vector_dispatch_13
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x5))), function at exception vector 13 too large)
+
+.vector_14      0x9d00f3c0        0x8
+ *(.vector_14)
+ .vector_14     0x9d00f3c0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+                0x9d00f3c0                __vector_dispatch_14
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x5))), function at exception vector 14 too large)
+
+.vector_15      0x9d00f3e0        0x8
+ *(.vector_15)
+ .vector_15     0x9d00f3e0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+                0x9d00f3e0                __vector_dispatch_15
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x5))), function at exception vector 15 too large)
+
+.vector_16      0x9d00f400        0x8
+ *(.vector_16)
+ .vector_16     0x9d00f400        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+                0x9d00f400                __vector_dispatch_16
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x5))), function at exception vector 16 too large)
+
+.vector_17      0x9d00f420        0x8
+ *(.vector_17)
+ .vector_17     0x9d00f420        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+                0x9d00f420                __vector_dispatch_17
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x5))), function at exception vector 17 too large)
+
+.vector_18      0x9d00f440        0x8
+ *(.vector_18)
+ .vector_18     0x9d00f440        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+                0x9d00f440                __vector_dispatch_18
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x5))), function at exception vector 18 too large)
+
+.vector_19      0x9d00f460        0x8
+ *(.vector_19)
+ .vector_19     0x9d00f460        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+                0x9d00f460                __vector_dispatch_19
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x5))), function at exception vector 19 too large)
+
+.vector_20      0x9d00f480        0x8
+ *(.vector_20)
+ .vector_20     0x9d00f480        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+                0x9d00f480                __vector_dispatch_20
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x5))), function at exception vector 20 too large)
+
+.vector_21      0x9d00f4a0        0x8
+ *(.vector_21)
+ .vector_21     0x9d00f4a0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+                0x9d00f4a0                __vector_dispatch_21
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x5))), function at exception vector 21 too large)
+
+.vector_22      0x9d00f4c0        0x8
+ *(.vector_22)
+ .vector_22     0x9d00f4c0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+                0x9d00f4c0                __vector_dispatch_22
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x5))), function at exception vector 22 too large)
+
+.vector_23      0x9d00f4e0        0x8
+ *(.vector_23)
+ .vector_23     0x9d00f4e0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+                0x9d00f4e0                __vector_dispatch_23
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x5))), function at exception vector 23 too large)
+
+.vector_24      0x9d00f500        0x8
+ *(.vector_24)
+ .vector_24     0x9d00f500        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+                0x9d00f500                __vector_dispatch_24
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x5))), function at exception vector 24 too large)
+
+.vector_25      0x9d00f520        0x8
+ *(.vector_25)
+ .vector_25     0x9d00f520        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+                0x9d00f520                __vector_dispatch_25
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x5))), function at exception vector 25 too large)
+
+.vector_26      0x9d00f540        0x8
+ *(.vector_26)
+ .vector_26     0x9d00f540        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+                0x9d00f540                __vector_dispatch_26
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x5))), function at exception vector 26 too large)
+
+.vector_27      0x9d00f560        0x8
+ *(.vector_27)
+ .vector_27     0x9d00f560        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+                0x9d00f560                __vector_dispatch_27
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x5))), function at exception vector 27 too large)
+
+.vector_28      0x9d00f580        0x8
+ *(.vector_28)
+ .vector_28     0x9d00f580        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+                0x9d00f580                __vector_dispatch_28
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x5))), function at exception vector 28 too large)
+
+.vector_29      0x9d00f5a0        0x8
+ *(.vector_29)
+ .vector_29     0x9d00f5a0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+                0x9d00f5a0                __vector_dispatch_29
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x5))), function at exception vector 29 too large)
+
+.vector_30      0x9d00f5c0        0x8
+ *(.vector_30)
+ .vector_30     0x9d00f5c0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+                0x9d00f5c0                __vector_dispatch_30
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x5))), function at exception vector 30 too large)
+
+.vector_31      0x9d00f5e0        0x8
+ *(.vector_31)
+ .vector_31     0x9d00f5e0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+                0x9d00f5e0                __vector_dispatch_31
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x5))), function at exception vector 31 too large)
+
+.vector_32      0x9d00f600        0x8
+ *(.vector_32)
+ .vector_32     0x9d00f600        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+                0x9d00f600                __vector_dispatch_32
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x5))), function at exception vector 32 too large)
+
+.vector_33      0x9d00f620        0x8
+ *(.vector_33)
+ .vector_33     0x9d00f620        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+                0x9d00f620                __vector_dispatch_33
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x5))), function at exception vector 33 too large)
+
+.vector_34      0x9d00f640        0x8
+ *(.vector_34)
+ .vector_34     0x9d00f640        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+                0x9d00f640                __vector_dispatch_34
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x5))), function at exception vector 34 too large)
+
+.vector_35      0x9d00f660        0x8
+ *(.vector_35)
+ .vector_35     0x9d00f660        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+                0x9d00f660                __vector_dispatch_35
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x5))), function at exception vector 35 too large)
+
+.vector_36      0x9d00f680        0x8
+ *(.vector_36)
+ .vector_36     0x9d00f680        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+                0x9d00f680                __vector_dispatch_36
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x5))), function at exception vector 36 too large)
+
+.vector_37      0x9d00f6a0        0x8
+ *(.vector_37)
+ .vector_37     0x9d00f6a0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+                0x9d00f6a0                __vector_dispatch_37
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x5))), function at exception vector 37 too large)
+
+.vector_38      0x9d00f6c0        0x8
+ *(.vector_38)
+ .vector_38     0x9d00f6c0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+                0x9d00f6c0                __vector_dispatch_38
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x5))), function at exception vector 38 too large)
+
+.vector_39      0x9d00f6e0        0x8
+ *(.vector_39)
+ .vector_39     0x9d00f6e0        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+                0x9d00f6e0                __vector_dispatch_39
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x5))), function at exception vector 39 too large)
+
+.vector_40      0x9d00f700        0x8
+ *(.vector_40)
+ .vector_40     0x9d00f700        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+                0x9d00f700                __vector_dispatch_40
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x5))), function at exception vector 40 too large)
+
+.vector_41      0x9d00f720        0x8
+ *(.vector_41)
+ .vector_41     0x9d00f720        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+                0x9d00f720                __vector_dispatch_41
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x5))), function at exception vector 41 too large)
+
+.vector_42      0x9d00f740        0x8
+ *(.vector_42)
+ .vector_42     0x9d00f740        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+                0x9d00f740                __vector_dispatch_42
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x5))), function at exception vector 42 too large)
+
+.vector_43      0x9d00f760        0x8
+ *(.vector_43)
+ .vector_43     0x9d00f760        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+                0x9d00f760                __vector_dispatch_43
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x5))), function at exception vector 43 too large)
+
+.vector_44      0x9d00f780        0x0
+ *(.vector_44)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x5))), function at exception vector 44 too large)
+
+.vector_45      0x9d00f7a0        0x0
+ *(.vector_45)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x5))), function at exception vector 45 too large)
+
+.vector_46      0x9d00f7c0        0x0
+ *(.vector_46)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x5))), function at exception vector 46 too large)
+
+.vector_47      0x9d00f7e0        0x0
+ *(.vector_47)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x5))), function at exception vector 47 too large)
+
+.vector_48      0x9d00f800        0x0
+ *(.vector_48)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x5))), function at exception vector 48 too large)
+
+.vector_49      0x9d00f820        0x0
+ *(.vector_49)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x5))), function at exception vector 49 too large)
+
+.vector_50      0x9d00f840        0x0
+ *(.vector_50)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x5))), function at exception vector 50 too large)
+
+.vector_51      0x9d00f860        0x0
+ *(.vector_51)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x5))), function at exception vector 51 too large)
+
+.vector_52      0x9d00f880        0x0
+ *(.vector_52)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x5))), function at exception vector 52 too large)
+
+.vector_53      0x9d00f8a0        0x0
+ *(.vector_53)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x5))), function at exception vector 53 too large)
+
+.vector_54      0x9d00f8c0        0x0
+ *(.vector_54)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x5))), function at exception vector 54 too large)
+
+.vector_55      0x9d00f8e0        0x0
+ *(.vector_55)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x5))), function at exception vector 55 too large)
+
+.vector_56      0x9d00f900        0x0
+ *(.vector_56)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x5))), function at exception vector 56 too large)
+
+.vector_57      0x9d00f920        0x0
+ *(.vector_57)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x5))), function at exception vector 57 too large)
+
+.vector_58      0x9d00f940        0x0
+ *(.vector_58)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x5))), function at exception vector 58 too large)
+
+.vector_59      0x9d00f960        0x0
+ *(.vector_59)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x5))), function at exception vector 59 too large)
+
+.vector_60      0x9d00f980        0x0
+ *(.vector_60)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x5))), function at exception vector 60 too large)
+
+.vector_61      0x9d00f9a0        0x0
+ *(.vector_61)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x5))), function at exception vector 61 too large)
+
+.vector_62      0x9d00f9c0        0x0
+ *(.vector_62)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x5))), function at exception vector 62 too large)
+
+.vector_63      0x9d00f9e0        0x0
+ *(.vector_63)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x5))), function at exception vector 63 too large)
+
+.startup
+ *(.startup)
+
+.text           0x9d000000        0x0
+ *(.stub .gnu.linkonce.t.*)
+ *(.text.*personality*)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+ *(.gnu.warning)
+                0x9d000000                . = ALIGN (0x4)
+
+.init           0x9d000000        0x0
+ *crti.o(.init)
+ *crtbegin.o(.init)
+ *(EXCLUDE_FILE(*crtn.o *crtend?.o *crtend.o) .init)
+ *crtend.o(.init)
+ *crtn.o(.init)
+                0x9d000000                . = ALIGN (0x4)
+
+.fini           0x9d000000        0x0
+ *(.fini)
+                0x9d000000                . = ALIGN (0x4)
+
+.preinit_array  0x9d000000        0x0
+                0x9d000000                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x9d000000                PROVIDE (__preinit_array_end, .)
+                0x9d000000                . = ALIGN (0x4)
+
+.init_array     0x9d000000        0x0
+                0x9d000000                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x9d000000                PROVIDE (__init_array_end, .)
+                0x9d000000                . = ALIGN (0x4)
+
+.fini_array     0x9d000000        0x0
+                0x9d000000                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x9d000000                PROVIDE (__fini_array_end, .)
+                0x9d000000                . = ALIGN (0x4)
+
+.ctors          0x9d000000        0x0
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x9d000000                . = ALIGN (0x4)
+
+.dtors          0x9d000000        0x0
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x9d000000                . = ALIGN (0x4)
+
+.rodata         0x9d000000        0x0
+ *(.gnu.linkonce.r.*)
+ *(.rodata1)
+                0x9d000000                . = ALIGN (0x4)
+
+.sdata2         0x9fc00490        0x0
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x9fc00490                . = ALIGN (0x4)
+
+.sbss2          0x9fc00490        0x0
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+                0x9fc00490                . = ALIGN (0x4)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+                0x9fc00490                . = ALIGN (0x4)
+
+.eh_frame
+ *(.eh_frame)
+                0x9fc00490                . = ALIGN (0x4)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x9fc00490                . = ALIGN (0x4)
+
+.dbg_data       0xa0000000        0x0
+                0xa0000000                . = (. + DEFINED (_DEBUGGER)?0x200:0x0)
+
+.jcr            0xa0000000        0x0
+ *(.jcr)
+                0xa0000000                . = ALIGN (0x4)
+
+.eh_frame
+ *(.eh_frame)
+                0xa0000000                . = ALIGN (0x4)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0xa0000000                . = ALIGN (0x4)
+
+.persist        0xa0000000        0x0
+                0xa0000000                _persist_begin = .
+ *(.persist .persist.*)
+ *(.pbss .pbss.*)
+                0xa0000000                . = ALIGN (0x4)
+                0xa0000000                _persist_end = .
+
+.data           0xa0000000        0x0
+ *(.gnu.linkonce.d.*)
+ *(.data1)
+                0xa0000000                . = ALIGN (0x4)
+                0xa0000000                . = .
+                0xa0007ff0                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got            0xa0000000        0x0
+ *(.got.plt)
+ *(.got)
+                0xa0000000                . = ALIGN (0x4)
+
+.sdata          0xa0000000       0x10
+                0xa0000000                _sdata_begin = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0xa0000000        0x8 Robot_Base.o
+                0xa0000000                ISR_pwm1
+                0xa0000004                ISR_pwm2
+ .sdata         0xa0000008        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+                0xa0000008                _libc_data
+ .sdata         0xa000000c        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+                0xa000000c                __XC_UART
+                0xa0000010                . = ALIGN (0x4)
+                0xa0000010                _sdata_end = .
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0xa0000010                . = ALIGN (0x4)
+                0xa0000010                _data_end = .
+                0xa0000010                _bss_begin = .
+
+.sbss           0xa0000010        0x8
+                0xa0000010                _sbss_begin = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0xa0000010        0x4 Robot_Base.o
+                0xa0000010                ISR_cnt
+ .sbss          0xa0000014        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+                0xa0000014                errno
+ *(.scommon)
+                0xa0000018                _sbss_end = .
+                0xa0000018                . = ALIGN (0x4)
+
+.bss            0xa0000018        0x0
+ *(.dynbss)
+ *(COMMON)
+                0xa0000018                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0xa0000018                . = ALIGN (0x4)
+                0xa0000018                _end = .
+                0xa0000018                _bss_end = .
+                0x00004000                _bmxdudba_address = 0x4000
+                0x00004000                _bmxdupba_address = 0x4000
+
+/DISCARD/
+ *(.pdr)
+ *(.rel.dyn)
+ *(.note.GNU-stack)
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+ *(.discard)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.mdebug.abi32   0xa0000018        0x0
+ *(.mdebug.abi32)
+ .mdebug.abi32  0xa0000018        0x0 Robot_Base.o
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+ .mdebug.abi32  0xa0000018        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.mdebug.abiN32
+ *(.mdebug.abiN32)
+
+.mdebug.abi64
+ *(.mdebug.abi64)
+
+.mdebug.abiO64
+ *(.mdebug.abiO64)
+
+.mdebug.eabi32
+ *(.mdebug.eabi32)
+
+.mdebug.eabi64
+ *(.mdebug.eabi64)
+
+.gcc_compiled_long32
+ *(.gcc_compiled_long32)
+
+.gcc_compiled_long64
+ *(.gcc_compiled_long64)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x31a
+ *(.comment)
+ .comment       0x00000000       0x3c Robot_Base.o
+                                 0x3d (size before relaxing)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .comment       0x0000003c       0x53 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+                                 0x90 (size before relaxing)
+ .comment       0x0000008f       0x54 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                                 0x91 (size before relaxing)
+ .comment       0x000000e3       0x50 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+                                 0x8d (size before relaxing)
+ .comment       0x00000133       0x51 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+                                 0x8e (size before relaxing)
+ .comment       0x00000184       0x52 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+                                 0x8f (size before relaxing)
+ .comment       0x000001d6       0x4e d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+                                 0x8b (size before relaxing)
+ .comment       0x00000224       0x55 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+                                 0x92 (size before relaxing)
+ .comment       0x00000279       0x4f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+                                 0x8c (size before relaxing)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .comment       0x00000000       0x3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+ .comment       0x000002c8       0x52 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+                                 0x8f (size before relaxing)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x178
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 Robot_Base.o
+ .debug_aranges
+                0x00000020       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_aranges
+                0x00000040       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_aranges
+                0x00000060       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_aranges
+                0x00000080       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_aranges
+                0x000000a0       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_aranges
+                0x00000100       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_aranges
+                0x00000120       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000140       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x00000160       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3844
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1e0b Robot_Base.o
+ .debug_info    0x00001e0b       0xf5 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00001f00       0xcf d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_info    0x00001fcf       0xd7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x000020a6       0xf1 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x00002197       0xe9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00002280       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_info    0x00002348       0xca d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_info    0x00002412       0xc8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_info    0x000024da      0x862 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_info    0x00002d3c      0x8bf d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .debug_info    0x000035fb      0x249 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.debug_abbrev   0x00000000      0x79d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x34d Robot_Base.o
+ .debug_abbrev  0x0000034d       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x00000375       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x0000039d       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x000003c5       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x000003ed       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x00000415       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_abbrev  0x0000043d       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_abbrev  0x00000465       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_abbrev  0x0000048d      0x152 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000005df      0x16c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x0000074b       0x52 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.debug_line     0x00000000      0xa8e
+ *(.debug_line)
+ .debug_line    0x00000000      0x2b3 Robot_Base.o
+ .debug_line    0x000002b3       0xa9 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x0000035c       0x96 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_line    0x000003f2       0x9a d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000048c       0xa7 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x00000533       0xa8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x000005db       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_line    0x0000066a       0x90 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_line    0x000006fa        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .debug_line    0x000006fa       0x8f d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_line    0x00000789      0x13b d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_line    0x000008c4      0x138 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .debug_line    0x000009fc       0x92 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x55c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x3d8 Robot_Base.o
+ .debug_frame   0x000003d8       0x2c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x00000404       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_frame   0x00000424       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_frame   0x00000444       0x2c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_frame   0x00000470       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_frame   0x00000490       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_frame   0x000004b8       0x2c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_frame   0x000004e4       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_frame   0x0000050c       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000534       0x28 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+
+.debug_str      0x00000000       0x17
+ *(.debug_str)
+ .debug_str     0x00000000       0x17 Robot_Base.o
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .debug_str     0x00000017        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000     0x1bcb
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xe8e d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000e8e      0xd3d d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x2a8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_ranges  0x00000010       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .debug_ranges  0x00000020       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .debug_ranges  0x00000030       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .debug_ranges  0x00000040       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .debug_ranges  0x00000050       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .debug_ranges  0x00000060       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .debug_ranges  0x00000070       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .debug_ranges  0x00000080      0x128 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x000001a8      0x100 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+
+.gnu.attributes
+                0x00000000       0x10
+ *(.gnu.attributes)
+ .gnu.attributes
+                0x00000000       0x10 Robot_Base.o
+ .gnu.attributes
+                0x00000010       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+ .gnu.attributes
+                0x00000020       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+ .gnu.attributes
+                0x00000030       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+ .gnu.attributes
+                0x00000040       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+ .gnu.attributes
+                0x00000050       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+ .gnu.attributes
+                0x00000060       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+ .gnu.attributes
+                0x00000070       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+ .gnu.attributes
+                0x00000080       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+ .gnu.attributes
+                0x00000090       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+ .gnu.attributes
+                0x000000a0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+ .gnu.attributes
+                0x000000b0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+ .gnu.attributes
+                0x000000c0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+ .gnu.attributes
+                0x000000d0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+ .gnu.attributes
+                0x000000e0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+ .gnu.attributes
+                0x000000f0       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+ .gnu.attributes
+                0x00000100       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+ .gnu.attributes
+                0x00000110       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+ .gnu.attributes
+                0x00000120       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+ .gnu.attributes
+                0x00000130       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+ .gnu.attributes
+                0x00000140       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+ .gnu.attributes
+                0x00000150       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a
+START GROUP
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libdebug.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libe.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libdsp.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a
+END GROUP
+LOAD d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a
+OUTPUT(Robot_Base.elf elf32-tradlittlemips)
+LOAD stack
+LOAD data_init
+
+.reginfo        0x00000000       0x18
+ .reginfo       0x00000000       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+.stack          0xa00001b8      0x400
+ .stack         0xa00001b8      0x400 stack
+
+.data           0xa0000018       0xd4
+ .data          0xa0000018       0xd4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+
+.bss            0xa00000ec       0x88
+ .bss           0xa00000ec       0x88 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+
+.data           0xa0000174       0x14
+ .data          0xa0000174       0x14 Robot_Base.o
+                0xa0000174                HexDigit
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-nmi-handler.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-nmi-handler.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\processor.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\processor.o
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\pic32_software_reset.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\pic32_software_reset.o
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 Robot_Base.o
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+
+.bss            0x00000000        0x0
+ .bss           0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+
+._debug_exception
+                0xbfc00480       0x2c
+ ._debug_exception
+                0xbfc00480       0x2c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+                0xbfc00480                __DbgExecReturn
+
+.text           0x9d000000      0xe80
+ .text          0x9d000000      0xe80 Robot_Base.o
+                0x9d000000                Timer1_Handler
+                0x9d000115                SetupTimer1
+                0x9d0001dd                wait_1ms
+                0x9d000221                waitms
+                0x9d00023d                GetPeriod
+                0x9d000381                UART2Configure
+                0x9d0003f9                uart_puts
+                0x9d000429                PrintNumber
+                0x9d0004a9                ADCConf
+                0x9d0004ed                ADCRead
+                0x9d000539                ConfigurePins
+                0x9d00060d                MoveArm
+                0x9d00067d                ArmInit
+                0x9d0006b5                StartMagnet
+                0x9d0006e5                MoveForward
+                0x9d000725                MoveBackward
+                0x9d00076d                Stop
+                0x9d0007b1                TurnDirectionForCoin
+                0x9d0007f5                TurnDirectionForWall
+                0x9d000839                test
+                0x9d0008a5                bitExtracted
+                0x9d0008cd                pin_innit
+                0x9d0009d1                LCD_pulse
+                0x9d0009fd                LCD_command
+                0x9d000b95                WriteData
+                0x9d000bc1                WriteCommand
+                0x9d000bed                LCD_4BIT
+                0x9d000c39                LCDprint
+                0x9d000ca9                getEdge
+                0x9d000d11                getCoin
+                0x9d000d61                main
+
+.text._do_print_cdfFnopuxX
+                0x9d000e80      0x72c
+ .text._do_print_cdfFnopuxX
+                0x9d000e80      0x72c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+                0x9d000e81                _do_print_cdfFnopuxX
+                0x9d000e81                _do_print_fF
+                0x9d000e81                _do_print_cdnopuxX
+
+.text           0x9d0015ac      0x714
+ .text          0x9d0015ac      0x3b8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_udivdi3.o)
+                0x9d0015ad                __udivdi3
+ .text          0x9d001964      0x35c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_umoddi3.o)
+                0x9d001965                __umoddi3
+
+.text._fconvert
+                0x9d001cc0      0x304
+ .text._fconvert
+                0x9d001cc0      0x304 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text.fpsubadd  0x9d001fc4      0x278
+ .text.fpsubadd
+                0x9d001fc4      0x278 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+                0x9d001fc4                fpsub
+                0x9d001fc4                __subsf3
+                0x9d001fcc                __addsf3
+                0x9d001fcc                fpadd
+
+.text.fp32div   0x9d00223c      0x230
+ .text.fp32div  0x9d00223c      0x230 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+                0x9d00223c                fpdiv
+                0x9d00223c                __divsf3
+
+.text.fp32mul   0x9d00246c      0x1bc
+ .text.fp32mul  0x9d00246c      0x1bc d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+                0x9d00246c                fpmul
+                0x9d00246c                __mulsf3
+
+.dinit          0x9d002628      0x160
+ .dinit         0x9d002628      0x160 data_init
+
+.rodata         0x9d002788      0x100
+ .rodata        0x9d002788      0x100 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+                0x9d002788                __clz_tab
+
+.text.general_exception
+                0x9d002888       0xdc
+ .text.general_exception
+                0x9d002888       0xdc d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+                0x9d002888                _general_exception_context
+
+.text.libm      0x9d002964       0xd4
+ .text.libm     0x9d002964       0xd4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+                0x9d002964                fpmodf
+                0x9d002964                modff
+
+.text.fpcmp     0x9d002a38       0x9c
+ .text.fpcmp    0x9d002a38       0x9c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+                0x9d002a38                __nesf2
+                0x9d002a38                __gtsf2
+                0x9d002a38                __eqsf2
+                0x9d002a38                __ltsf2
+                0x9d002a38                fpcmp
+                0x9d002a38                __gesf2
+                0x9d002a38                __lesf2
+
+.text._mon_getc
+                0x9d002ad4       0x88
+ .text._mon_getc
+                0x9d002ad4       0x88 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+                0x9d002ad5                _mon_getc
+
+.text.fptoli    0x9d002b5c       0x80
+ .text.fptoli   0x9d002b5c       0x80 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+                0x9d002b5c                fptoli
+                0x9d002b5c                fptosi
+                0x9d002b5c                __fixsfsi
+
+.text._outcnvrt
+                0x9d002bdc       0x7c
+ .text._outcnvrt
+                0x9d002bdc       0x7c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text._mon_putc
+                0x9d002c58       0x78
+ .text._mon_putc
+                0x9d002c58       0x78 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+                0x9d002c59                _mon_putc
+
+.text._flsbuf_simple
+                0x9d002cd0       0x74
+ .text._flsbuf_simple
+                0x9d002cd0       0x74 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d002cd1                _flsbuf_simple
+
+.text.sitofp    0x9d002d44       0x60
+ .text.sitofp   0x9d002d44       0x60 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+                0x9d002d44                __floatsisf
+                0x9d002d44                litofp
+                0x9d002d44                sitofp
+
+.text.main_entry
+                0x9d002da4       0x54
+ .text.main_entry
+                0x9d002da4       0x54 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o
+                0x9d002dd8                __crt0_exit
+
+.text.fputc     0x9d002df8       0x4c
+ .text.fputc    0x9d002df8       0x4c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+                0x9d002df9                fputc
+
+.text._bootstrap_exception_handler
+                0x9d002e44       0x48
+ .text._bootstrap_exception_handler
+                0x9d002e44       0x48 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+                0x9d002e44                _bootstrap_exception_handler
+
+.text._general_exception_handler
+                0x9d002e8c       0x48
+ .text._general_exception_handler
+                0x9d002e8c       0x48 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+                0x9d002e8c                _general_exception_handler
+
+.vector_default
+                0x9d002ed4       0x48
+ .vector_default
+                0x9d002ed4       0x48 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+                0x9d002ed4                _DefaultInterrupt
+
+.rodata         0x9d002f1c       0x48
+ .rodata        0x9d002f1c       0x48 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text           0x9d002f64       0x44
+ .text          0x9d002f64       0x44 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\pic32_software_reset.o
+                0x9d002f64                __pic32_software_reset
+
+.text.strlen    0x9d002fa8       0x40
+ .text.strlen   0x9d002fa8       0x40 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+                0x9d002fa9                strlen
+
+.text._fflush_simple
+                0x9d002fe8       0x3c
+ .text._fflush_simple
+                0x9d002fe8       0x3c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d002fe9                _fflush_simple
+
+.text._fwrite_simple
+                0x9d003024       0x3c
+ .text._fwrite_simple
+                0x9d003024       0x3c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d003025                _fwrite_simple
+
+.text._sprintf_fF
+                0x9d003060       0x38
+ .text._sprintf_fF
+                0x9d003060       0x38 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+                0x9d003061                _sprintf_fF
+
+.text.repl      0x9d003098       0x2c
+ .text.repl     0x9d003098       0x2c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text.__sputn   0x9d0030c4       0x24
+ .text.__sputn  0x9d0030c4       0x24 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text._filbuf_simple
+                0x9d0030e8       0x20
+ .text._filbuf_simple
+                0x9d0030e8       0x20 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d0030e9                _filbuf_simple
+
+.rodata         0x9d003108       0x1c
+ .rodata        0x9d003108       0x1c Robot_Base.o
+
+.text._fsync_simple
+                0x9d003124       0x1c
+ .text._fsync_simple
+                0x9d003124       0x1c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d003125                _fsync_simple
+
+.text._printf_cdnopuxX
+                0x9d003140       0x1c
+ .text._printf_cdnopuxX
+                0x9d003140       0x1c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+                0x9d003141                _printf_cdnopuxX
+
+.text._mon_write
+                0x9d00315c       0x1c
+ .text._mon_write
+                0x9d00315c       0x1c d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+                0x9d00315d                _mon_write
+
+.text           0x9d003178       0x18
+ .text          0x9d003178       0x18 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-nmi-handler.o)
+                0x9d003178                _nmi_handler
+
+.rodata         0x9d003190       0x14
+ .rodata        0x9d003190       0x14 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+                0x9d003190                _io_funcs
+
+.text.putchar   0x9d0031a4       0x14
+ .text.putchar  0x9d0031a4       0x14 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+                0x9d0031a5                putchar
+
+.rodata         0x9d0031b8       0x14
+ .rodata        0x9d0031b8       0x14 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+                0x9d0031b8                _io_strfuncs
+
+.text._io_exit  0x9d0031cc       0x20
+ .text._io_exit
+                0x9d0031cc       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+                0x9d0031cd                _io_exit
+ .text._io_exit
+                0x9d0031dc       0x10 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text.putc      0x9d0031ec        0xc
+ .text.putc     0x9d0031ec        0xc d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+                0x9d0031ed                putc
+
+.text._vfprintf_cdfFnopuxX
+                0x9d0031f8        0xc
+ .text._vfprintf_cdfFnopuxX
+                0x9d0031f8        0xc d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+                0x9d0031f9                _vfprintf_cdfFnopuxX
+
+.text._filbuf_string
+                0x9d003204        0x8
+ .text._filbuf_string
+                0x9d003204        0x8 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text._on_reset
+                0x9d00320c        0x4
+ .text._on_reset
+                0x9d00320c        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+                0x9d00320d                _on_reset
+
+.text._on_bootstrap
+                0x9d003210        0x4
+ .text._on_bootstrap
+                0x9d003210        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+                0x9d003211                _on_bootstrap
+
+.text._flsbuf_string
+                0x9d003214        0x4
+ .text._flsbuf_string
+                0x9d003214        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text._fflush_string
+                0x9d003218        0x4
+ .text._fflush_string
+                0x9d003218        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text._fwrite_string
+                0x9d00321c        0x4
+ .text._fwrite_string
+                0x9d00321c        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text._fsync_string
+                0x9d003220        0x4
+ .text._fsync_string
+                0x9d003220        0x4 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_doprnt_cdfFnopuxX.eo)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/mips16\libgcc.a(_clz.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fptoli.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpmodf.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32subadd.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_putc.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(xc32_uart.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_write.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(_mon_getc.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(strlen.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobstring.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(errno.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(sprintf_fF.eo)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(printf_cdnopuxX.eo)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(fputc.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobfuncs.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\liblega-c.a(_iobdata.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(sitofp.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fpcmp.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32mul.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libm.a(fp32div.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(defaultinterrupt.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-general-exception-handler.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector43.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector42.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector41.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector40.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector39.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector38.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector37.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector36.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector35.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector34.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector33.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector32.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector31.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector30.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector29.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector28.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector27.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector26.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector25.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector24.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector23.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector22.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector21.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector20.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector19.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector18.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector17.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector16.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector15.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector14.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector13.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector12.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector11.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector10.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector9.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector8.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector7.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector6.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector5.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector3.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector2.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector1.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(vector0.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(general-exception.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-bootstrap.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-on-reset.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\libpic32.a(default-bootstrap-exception-handler.o)
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\processor.o
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B\default_isr_vectors.o
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/mips16\debug-exception-return.o
+
+.text           0x00000000        0x0
+ .text          0x00000000        0x0 d:/291/crosside/project2/xc32_1.42/xc32/v1.42/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX130F064B/crt0_mips32r2.o

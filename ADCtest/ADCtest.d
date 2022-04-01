@@ -1,0 +1,1 @@
+ADCtest.o: ADCtest.c
