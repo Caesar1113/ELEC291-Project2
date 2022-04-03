@@ -22,7 +22,7 @@
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 91400.0
+#define NoCoinPeriod 91000.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -268,22 +268,22 @@ void MoveArm(){
 void ArmInit(){
 
 
-	waitms(1000);
+	waitms(100);
 	ISR_pwm1=120;
- 	waitms(1000);
+ 	waitms(500);
    	ISR_pwm2=120;   //picking up coins (might want to add longer delay)
- 	waitms(1000);
+ 	waitms(500);
  	
  	
 } 
  
  	
 void StartMagnet(){
-	TRISBbits.TRISB4 = 1;
-	waitms(5000);
-	TRISBbits.TRISB4 = 0;	
+	TRISBbits.TRISB4 = 1;	
 }   	
-
+void StopMagnet(){
+	TRISBbits.TRISB4 = 0;
+}
 
 
 
@@ -330,7 +330,7 @@ void TurnDirectionForCoin(){
 //	TRISBbits.TRISB4=!TRISBbits.TRISB4;
 //	}
 	
-	waitms(100);//Time needed to turn to pick a coin
+	waitms(500);//Time needed to turn to pick a coin
 }
 
 void TurnDirectionForWall(){
@@ -527,12 +527,12 @@ void main(void)
     ConfigurePins();
     SetupTimer1(); 
     ADCConf(); // Configure ADC    
-   	pin_innit();
-	LCD_4BIT();
-	WriteCommand(0x01);
+//	pin_innit();
+//	LCD_4BIT();
+//	WriteCommand(0x01);
 	while(1)
 	{
-		LCDprint("# of Coins:",1,1);
+//		LCDprint("# of Coins:",1,1);
 		
 		EdgeCounter++;
 		EdgeDetected=getEdge(EdgeCounter);
@@ -541,42 +541,46 @@ void main(void)
 		printf("%d\n",CoinDetected);
 //..............................................main function
 
-//turning to pick coin	
-		if(CoinDetected=1){
-   		Coins=Coins+1;
-   		Stop();
-   		TurnDirectionForCoin();
-   		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
-   		MoveArm();
-   		waitms(50);
-   		ArmInit();
-   		StartMagnet();
-   		MoveForward(); 
-   		
-   		CoinDetected=0;    		 
+//..............................................................turning to pick coin	
+		if(CoinDetected=0){
+  	   		MoveForward();		 
    		}
    		else{
-
-   		MoveForward();		
+   		Coins=Coins+1;
+   		MoveBackward();
+   		waitms(500);
+   		Stop();
+   		TurnDirectionForCoin();
+   		Stop();
+   		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
+   		StartMagnet();
+   		MoveArm();
+   		waitms(2000);
+   		StopMagnet();
+   		ArmInit();
+	
+   		MoveForward(); 	
+   		
+	
    		}
+   		CoinDetected=0;
    		
-   		
-   		sprintf(buf,"%4.3f",Coins);
-		LCDprint(buf,2,1);
+  // 		sprintf(buf,"%4.3f",Coins);
+	//	LCDprint(buf,2,1);
 
    		
    		
  //Turning if wall  		
-		if(EdgeDetected=0){
-   		 MoveForward();
-   		}
-   		else{
-   		MoveBackward();
-   		Stop();
-   		TurnDirectionForWall();
-   		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
-   		MoveForward();
-   		}
+//		if(EdgeDetected=0){
+ //  		 MoveForward();
+   //		}
+   	//	else{
+ //  		MoveBackward();
+   //		Stop();
+   	//	TurnDirectionForWall();
+   	//	//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
+   	//	MoveForward();
+   	//	}
 	
 	
 
