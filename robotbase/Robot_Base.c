@@ -22,7 +22,7 @@
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 90500.0
+#define NoCoinPeriod 88000.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -475,7 +475,7 @@ void LCDprint(char* string, unsigned char line, int clear)
 
 //.................................................................Detection..........................
 int getEdge(volatile unsigned long EdgeCounter){
-	EdgeCounter=0;
+	//EdgeCounter=0;
     int adcval;
     float voltage;
 	
@@ -494,7 +494,7 @@ int getEdge(volatile unsigned long EdgeCounter){
 
 int getCoin(){
 	long int CoinCounter=0;
-	float T, f;
+//	float T, f;
 	CoinCounter=GetPeriod(100);
 	printf("%d\n",CoinCounter);
 	if(CoinCounter>0)
@@ -544,31 +544,32 @@ void main(void)
 		EdgeDetected=getEdge(EdgeCounter);
 		
 		CoinDetected=getCoin();
-		printf("%d\r\n",CoinDetected);
+
 //..............................................main function
 
 //..............................................................turning to pick coin	
-		if(CoinDetected=1){
+		printf("%d\r\n",CoinDetected);
+		if(CoinDetected==0){
+			printf("%d\r\n",CoinDetected);
   	   		MoveForward();
-  	   	   		MoveArm();
-   		waitms(2000);	 
+   		 
    		}
    		else{
-   		Coins=Coins+1;
-   		MoveBackward();
-   		waitms(500);
-   		Stop();
-   		TurnDirectionForCoin();
-   		Stop();
-   		//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
-   		StartMagnet();
-   		MoveArm();
-   		waitms(2000);
-   		StopMagnet();
-   		ArmInit();	
-   		MoveForward(); 	
+   			Coins=Coins+1;
+   			MoveBackward();
+   			waitms(500);
+   			Stop();
+   			TurnDirectionForCoin();
+   			Stop();
+   			//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
+   			StartMagnet();
+   			MoveArm();
+   			waitms(2000);
+   			StopMagnet();
+   			ArmInit();	
+   			MoveForward(); 	
    		}
-   		CoinDetected=0;
+   			CoinDetected=0;
    		
   // 		sprintf(buf,"%4.3f",Coins);
 	//	LCDprint(buf,2,1);
@@ -576,16 +577,17 @@ void main(void)
    		
    		
  //Turning if wall  		
-//		if(EdgeDetected=0){
- //  		 MoveForward();
-   //		}
-   	//	else{
- //  		MoveBackward();
-   //		Stop();
-   	//	TurnDirectionForWall();
-   	//	//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
-   	//	MoveForward();
-   	//	}
+		if(EdgeDetected==0){
+   		 MoveForward();
+   		}
+   		else{
+   		MoveBackward();
+   		waitms(100);
+   		Stop();
+   		TurnDirectionForWall();
+   		waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
+   		MoveForward();
+   		}
 	
 	
 
