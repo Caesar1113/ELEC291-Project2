@@ -548,7 +548,7 @@ void main(void)
 //..............................................main function
 
 //..............................................................turning to pick coin	
-		if(CoinDetected=1){
+		if(CoinDetected==1){
   	   		MoveForward();
   	   	   		MoveArm();
    		waitms(2000);	 
