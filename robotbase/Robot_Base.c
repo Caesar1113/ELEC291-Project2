@@ -22,7 +22,7 @@
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 91000.0
+#define NoCoinPeriod 90500.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -53,7 +53,7 @@ void __ISR(_TIMER_1_VECTOR, IPL5SOFT) Timer1_Handler(void)
 	{
 		LATBbits.LATB14 = 0;
 	}
-	if(ISR_cnt>=5000)
+	if(ISR_cnt>=2000)
 	{
 		ISR_cnt=0; // 2000 * 10us=20ms
 		LATBbits.LATB15 = 1;
@@ -250,7 +250,7 @@ void ConfigurePins(void)
 	
 //...............................................................arm related.................................
 void MoveArm(){
-
+		ISR_pwm1=80, ISR_pwm2=150;	
 	  ISR_pwm1=300;//pwm1 up/down//bottom angle
       waitms(1000);//pw2 left/right
       ISR_pwm2=200;   //picking up coins (might want to add longer delay) (seep left
@@ -490,7 +490,7 @@ int getCoin(){
 	long int CoinCounter=0;
 	float T, f;
 	CoinCounter=GetPeriod(100);
-	printf("%d\r",CoinCounter);
+	printf("%d\n",CoinCounter);
 	if(CoinCounter>0)
 		{
 //			T=(CoinCounter*2.0)/(SYSCLK*100.0);
@@ -538,12 +538,14 @@ void main(void)
 		EdgeDetected=getEdge(EdgeCounter);
 		
 		CoinDetected=getCoin();
-		printf("%d\n",CoinDetected);
+		printf("%d\r\n",CoinDetected);
 //..............................................main function
 
 //..............................................................turning to pick coin	
-		if(CoinDetected=0){
-  	   		MoveForward();		 
+		if(CoinDetected=1){
+  	   		MoveForward();
+  	   	   		MoveArm();
+   		waitms(2000);	 
    		}
    		else{
    		Coins=Coins+1;
@@ -557,11 +559,8 @@ void main(void)
    		MoveArm();
    		waitms(2000);
    		StopMagnet();
-   		ArmInit();
-	
+   		ArmInit();	
    		MoveForward(); 	
-   		
-	
    		}
    		CoinDetected=0;
    		

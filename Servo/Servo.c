@@ -13,7 +13,7 @@
 #define FREQ 100000L // We need the ISR for timer 1 every 10 us
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
-volatile int ISR_pwm1=150, ISR_pwm2=150, ISR_cnt=0;
+volatile int ISR_pwm1=80, ISR_pwm2=150, ISR_cnt=0;
 
 // The Interrupt Service Routine for timer 1 is used to generate one or more standard
 // hobby servo signals.  The servo signal has a fixed period of 20ms and a pulse width
@@ -25,17 +25,17 @@ void __ISR(_TIMER_1_VECTOR, IPL5SOFT) Timer1_Handler(void)
 	ISR_cnt++;
 	if(ISR_cnt==ISR_pwm1)
 	{
-		LATBbits.LATB5 = 0;
+		LATBbits.LATB15 = 0;
 	}
 	if(ISR_cnt==ISR_pwm2)
 	{
-		LATBbits.LATB6 = 0;
+		LATBbits.LATB14 = 0;
 	}
 	if(ISR_cnt>=2000)
 	{
 		ISR_cnt=0; // 2000 * 10us=20ms
-		LATBbits.LATB5 = 1;
-		LATBbits.LATB6 = 1;
+		LATBbits.LATB15 = 1;
+		LATBbits.LATB14 = 1;
 	}
 }
 
@@ -140,11 +140,11 @@ void main (void)
 	
 	// Configure the pin we are using for servo control as output
 	
-	TRISBbits.TRISB5 = 0;
-	LATBbits.LATB5 = 0;
+	TRISBbits.TRISB15 = 0;
+	LATBbits.LATB15 = 0;
 	
-	TRISBbits.TRISB6 = 0;
-	LATBbits.LATB6 = 0;	
+	TRISBbits.TRISB14 = 0;
+	LATBbits.LATB14 = 0;	
 	INTCONbits.MVEC = 1;
 	
 	SetupTimer1(); // Set timer 5 to interrupt every 10 us
@@ -162,31 +162,19 @@ void main (void)
 	
 	while (1)
 	{
-    	printf("Run sequence: (Enter 1 to continue)");
-    	fflush(stdout);
-    	SerialReceive(buf, sizeof(buf)-1); // wait here until data is received
- 
-    	printf("\n");
-    	fflush(stdout);
-	    pickup=atoi(buf);
-	    
-	    if(pickup == 1) 
-	    {
-	    	ISR_pwm1=220;
-	    	waitms(500);
-	    	ISR_pwm2=260;   //picking up coins (might want to add longer delay)
+			ISR_pwm1=80, ISR_pwm2=150;
+/*			ISR_pwm1=300;
 	    	waitms(1000);
-	    	ISR_pwm2=150;
-	    	waitms(500);
-	    	ISR_pwm1=180;   //release happens here (add delay if needed)
+	    	ISR_pwm2=200;   //picking up coins (might want to add longer delay) (seep left
 	    	waitms(1000);
 	    	ISR_pwm2=60;
-	    	waitms(500);
-	    	ISR_pwm1=120;
-        }
-        else
-        {
-        	printf("1 is not entered\r\n", pickup);
-        }
+	    	waitms(1000);
+	    	ISR_pwm1=80;
+*/	    	waitms(2000);
+	    	ISR_pwm2=80;
+	 		waitms(1000);
+	    	ISR_pwm1=140;
+	    	waitms(1000);
+
 	}
 }

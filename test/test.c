@@ -553,6 +553,7 @@ void main(void)
 	
 //..................................armtest
 	MoveArm();
+	waitms(5000);
 	ArmInit();
 //..................................wheel test
 	MoveForward();
