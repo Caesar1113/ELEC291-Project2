@@ -213,6 +213,12 @@ void ConfigurePins(void)
 	TRISAbits.TRISA2 = 0; // pin  9 of DIP28
 	TRISAbits.TRISA3 = 0; // pin 10 of DIP28
 	TRISBbits.TRISB4 = 0; // pin 11 of DIP28
+		
+	TRISBbits.TRISB15 = 0;
+	LATBbits.LATB15 = 0;
+	
+	TRISBbits.TRISB14 = 0;
+	LATBbits.LATB14 = 0;
 	INTCONbits.MVEC = 1;
 }
 
