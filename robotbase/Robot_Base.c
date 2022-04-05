@@ -18,11 +18,11 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 0.5
+#define EdgeVoltage 0.1
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 88000.0
+#define NoCoinPeriod 89600.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -35,7 +35,7 @@
 
 #define CHARS_PER_LINE 16
 
-volatile int ISR_pwm1=80, ISR_pwm2=150, ISR_cnt=0;
+volatile int ISR_pwm1=150, ISR_pwm2=60, ISR_cnt=0;
 
 // The Interrupt Service Routine for timer 1 is used to generate one or more standard
 // hobby servo signals.  The servo signal has a fixed period of 20ms and a pulse width
@@ -256,18 +256,17 @@ void ConfigurePins(void)
 	
 //...............................................................arm related.................................
 void MoveArm(){
-		ISR_pwm1=80, ISR_pwm2=150;	
-	  ISR_pwm1=300;//pwm1 up/down//bottom angle
-      waitms(1000);//pw2 left/right
-      ISR_pwm2=200;   //picking up coins (might want to add longer delay) (seep left
-      waitms(1000);
-      ISR_pwm2=120;
-      waitms(1000);
-      ISR_pwm1=80;
-      waitms(1000);
-      ISR_pwm2=80;
-      waitms(1000);
-      ISR_pwm1=140;
+		ISR_pwm1=150, ISR_pwm2=60;
+		waitms(1000);
+		ISR_pwm2=250;
+		waitms(1000);
+		ISR_pwm1=210;
+		waitms(1000);
+		ISR_pwm1=170;
+		waitms(1000);	
+		ISR_pwm2=90;
+		waitms(1000);
+		ISR_pwm1=110;
       waitms(1000);
 }  
  
@@ -275,9 +274,9 @@ void ArmInit(){
 
 
 	waitms(100);
-	ISR_pwm1=120;
+	ISR_pwm1=150;
  	waitms(500);
-   	ISR_pwm2=120;   //picking up coins (might want to add longer delay)
+   	ISR_pwm2=60;   //picking up coins (might want to add longer delay)
  	waitms(500);
  	
  	
@@ -296,21 +295,21 @@ void StopMagnet(){
 //.................................................servo................................
 void MoveForward(){
 //wheel 1
-	TRISAbits.TRISA0 = 1; //pin 2
-	TRISAbits.TRISA1 = 0; //pin 3
+	TRISAbits.TRISA0 = 0; //pin 2
+	TRISAbits.TRISA1 = 1; //pin 3
 //wheel 2
-	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
-	TRISBbits.TRISB1 = 1; // pin  5 of DIP28
+	TRISBbits.TRISB0 = 1; // pin  4 of DIP28
+	TRISBbits.TRISB1 = 0; // pin  5 of DIP28
 }
 
 void MoveBackward(){
 //wheel 1
-	TRISAbits.TRISA0 = 0;
-	TRISAbits.TRISA1 = 1;
+	TRISAbits.TRISA0 = 1;
+	TRISAbits.TRISA1 = 0;
 //wheel 2
-	TRISBbits.TRISB0 = 1; // pin  4 of DIP28
-	TRISBbits.TRISB1 = 0; // pin  5 of DIP28
-	waitms(500);
+	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
+	TRISBbits.TRISB1 = 1; // pin  5 of DIP28
+	waitms(25);
 }
 
 void Stop(){
@@ -336,7 +335,7 @@ void TurnDirectionForCoin(){
 //	TRISBbits.TRISB4=!TRISBbits.TRISB4;
 //	}
 	
-	waitms(500);//Time needed to turn to pick a coin
+	waitms(20);//Time needed to turn to pick a coin
 }
 
 void TurnDirectionForWall(){
@@ -474,24 +473,38 @@ void LCDprint(char* string, unsigned char line, int clear)
 
 
 //.................................................................Detection..........................
-int getEdge(volatile unsigned long EdgeCounter){
-	//EdgeCounter=0;
+int getEdge(){
+	int EdgeCounter;
+	EdgeCounter=0;
     int adcval;
     float voltage;
-	
+	while(EdgeCounter<500001){
+	EdgeCounter++;	
 		if(EdgeCounter==500000)
 		{
         	adcval = ADCRead(5); // note that we call pin AN5 (RB3) by it's analog number
         	voltage=adcval*3.3/1023.0;
 			EdgeCounter = 0;
-			if(voltage>EdgeVoltage)
-				return 1;
-			else
-				return 0;
-		}
-		return 0;
+			printf("Volage: %f\n",voltage);
+				return voltage;
+}}
 }
-
+int getEdge2(){
+	int EdgeCounter;
+	EdgeCounter=0;
+    int adcval;
+    float voltage;
+	while(EdgeCounter<500001){
+	EdgeCounter++;	
+		if(EdgeCounter==500000)
+		{
+        	adcval = ADCRead(6); // note that we call pin AN5 (RB3) by it's analog number
+        	voltage=adcval*3.3/1023.0;
+			EdgeCounter = 0;
+			printf("Volage: %f\n",voltage);
+				return voltage;
+}}
+}
 int getCoin(){
 	long int CoinCounter=0;
 //	float T, f;
@@ -523,7 +536,8 @@ void main(void)
     long int v;
 	unsigned long int count, f;
 	unsigned char LED_toggle=0;
-	int EdgeDetected=0;
+	float EdgeDetected=0;
+	float EdgeDetected2=0;
 	int CoinDetected=0;
 	volatile unsigned long CurrentPeriod=0;
 	DDPCON = 0;
@@ -536,32 +550,29 @@ void main(void)
 //	pin_innit();
 //	LCD_4BIT();
 //	WriteCommand(0x01);
+//	float EdgeVoltage;
+   			MoveForward(); 
 	while(1)
 	{
 //		LCDprint("# of Coins:",1,1);
-		
 		EdgeCounter++;
-		EdgeDetected=getEdge(EdgeCounter);
-		
+		EdgeDetected=getEdge();
+		EdgeDetected2=getEdge2();
 		CoinDetected=getCoin();
+		MoveForward(); 
 
 //..............................................main function
 
 //..............................................................turning to pick coin	
-<<<<<<< HEAD
-		if(CoinDetected==1){
-=======
 		printf("%d\r\n",CoinDetected);
-		if(CoinDetected==0){
+		if(CoinDetected==0 && EdgeDetected==0&& EdgeDetected2==0){
 			printf("%d\r\n",CoinDetected);
->>>>>>> 88c7ca6239b7e4790f1dfe78207a21eca1a5f862
   	   		MoveForward();
-   		 
    		}
-   		else{
+   		else if (CoinDetected==1){
    			Coins=Coins+1;
    			MoveBackward();
-   			waitms(500);
+   			waitms(50);
    			Stop();
    			TurnDirectionForCoin();
    			Stop();
@@ -573,6 +584,19 @@ void main(void)
    			ArmInit();	
    			MoveForward(); 	
    		}
+ 		else if (EdgeDetected>EdgeVoltage|| EdgeDetected2>EdgeVoltage){
+   			printf("Edge detected");
+   			MoveBackward();
+   			waitms(500);
+   			Stop();
+   			TurnDirectionForWall();
+   			waitms(200);//Time needed to finish the turn direction operatoion(for picking coin)
+   			MoveForward();
+   			
+   		}
+		
+    		EdgeDetected=0;
+    		EdgeDetected2=0;
    			CoinDetected=0;
    		
   // 		sprintf(buf,"%4.3f",Coins);
@@ -581,19 +605,7 @@ void main(void)
    		
    		
  //Turning if wall  		
-		if(EdgeDetected==0){
-   		 MoveForward();
-   		}
-   		else{
-   		MoveBackward();
-   		waitms(100);
-   		Stop();
-   		TurnDirectionForWall();
-   		waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
-   		MoveForward();
-   		}
-	
-	
+
 
 //		test();	
 //...........................................arm test function...................../
@@ -620,6 +632,5 @@ void main(void)
 	
 	
 
-		waitms(200);
 	}
 }
