@@ -18,11 +18,12 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 0.1
+#define EdgeVoltage 1.2
+#define EdgeVoltage2 0.2
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 89600.0
+#define NoCoinPeriod 20000.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -309,7 +310,7 @@ void MoveBackward(){
 //wheel 2
 	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
 	TRISBbits.TRISB1 = 1; // pin  5 of DIP28
-	waitms(25);
+	waitms(500);
 }
 
 void Stop(){
@@ -355,26 +356,17 @@ void TurnDirectionForWall(){
 	waitms(100);//Time needed to turn to pick a coin
 }
 
-void test(){
 
-MoveForward();	
-	waitms(1000);
-
-TurnDirectionForCoin();	
-
-	waitms(1000);
-MoveArm();
-	waitms(1000);
-Stop();
-	waitms(1000);
+void MoveSlow(){
+	MoveForward();
+	waitms(5);
+	Stop();
+	waitms(5);
+	MoveForward();
 	
-TurnDirectionForWall();
-	waitms(1000);
-	
-MoveBackward();
-	waitms(1000);
-
 }
+
+
 //............................................................lcd display...................
 int bitExtracted(int number, int k, int p) //needs an int
 {
@@ -478,9 +470,10 @@ int getEdge(){
 	EdgeCounter=0;
     int adcval;
     float voltage;
-	while(EdgeCounter<500001){
-	EdgeCounter++;	
-		if(EdgeCounter==500000)
+    	MoveSlow();	
+	while(EdgeCounter<50001){
+	EdgeCounter++;	 	
+		if(EdgeCounter==50000)
 		{
         	adcval = ADCRead(5); // note that we call pin AN5 (RB3) by it's analog number
         	voltage=adcval*3.3/1023.0;
@@ -494,11 +487,12 @@ int getEdge2(){
 	EdgeCounter=0;
     int adcval;
     float voltage;
-	while(EdgeCounter<500001){
+    	  	   		
+	while(EdgeCounter<50001){
 	EdgeCounter++;	
-		if(EdgeCounter==500000)
+		if(EdgeCounter==50000)
 		{
-        	adcval = ADCRead(6); // note that we call pin AN5 (RB3) by it's analog number
+        	adcval = ADCRead(6); // note that we call pin AN5 (RB2) by it's analog number
         	voltage=adcval*3.3/1023.0;
 			EdgeCounter = 0;
 			printf("Volage: %f\n",voltage);
@@ -508,10 +502,10 @@ int getEdge2(){
 int getCoin(){
 	long int CoinCounter=0;
 //	float T, f;
-	CoinCounter=GetPeriod(100);
+	CoinCounter=GetPeriod(20);
 	printf("%d\n",CoinCounter);
 	if(CoinCounter>0)
-		{
+		{	  	   		MoveSlow();	
 //			T=(CoinCounter*2.0)/(SYSCLK*100.0);
 //			f=1/T;
 			if(CoinCounter<NoCoinPeriod)
@@ -551,23 +545,28 @@ void main(void)
 //	LCD_4BIT();
 //	WriteCommand(0x01);
 //	float EdgeVoltage;
-   			MoveForward(); 
+//	MoveSlow();	
+ 
 	while(1)
 	{
-//		LCDprint("# of Coins:",1,1);
+		LCDprint("# of Coins:",1,1);
 		EdgeCounter++;
 		EdgeDetected=getEdge();
 		EdgeDetected2=getEdge2();
 		CoinDetected=getCoin();
-		MoveForward(); 
+		
 
 //..............................................main function
 
-//..............................................................turning to pick coin	
+//..............................................................turning to pick coin
+//		MoveSlow();	
 		printf("%d\r\n",CoinDetected);
-		if(CoinDetected==0 && EdgeDetected==0&& EdgeDetected2==0){
+		if(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
+			//while(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
 			printf("%d\r\n",CoinDetected);
-  	   		MoveForward();
+			MoveForward(); 
+		//	}
+
    		}
    		else if (CoinDetected==1){
    			Coins=Coins+1;
@@ -578,20 +577,20 @@ void main(void)
    			Stop();
    			//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    			StartMagnet();
-   			MoveArm();
+   //			MoveArm();
    			waitms(2000);
    			StopMagnet();
    			ArmInit();	
    			MoveForward(); 	
    		}
- 		else if (EdgeDetected>EdgeVoltage|| EdgeDetected2>EdgeVoltage){
+ 		else if (EdgeDetected>EdgeVoltage|| EdgeDetected2>EdgeVoltage2){
    			printf("Edge detected");
    			MoveBackward();
    			waitms(500);
    			Stop();
    			TurnDirectionForWall();
    			waitms(200);//Time needed to finish the turn direction operatoion(for picking coin)
-   			MoveForward();
+   			MoveForward(); 
    			
    		}
 		
