@@ -18,21 +18,22 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 1.2
-#define EdgeVoltage2 1.4
+#define EdgeVoltage 0.6
+#define EdgeVoltage2 0.6
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 19800.0
+#define NoCoinPeriod 7200.0
 
 
-#define LCD_D4 LATBbits.LATB15
-#define LCD_D5 LATBbits.LATB14
+#define LCD_D4 LATAbits.LATA2
+#define LCD_D5 LATAbits.LATA3	
 #define LCD_D6 LATBbits.LATB13
 #define LCD_D7 LATBbits.LATB12
-#define LCD_RS LATAbits.LATA2 
+
+#define LCD_RS LATBbits.LATB10 
 //RW is not connected for this code
-#define LCD_E  LATAbits.LATA3
+#define LCD_E  LATAbits.LATA4
 
 #define CHARS_PER_LINE 16
 
@@ -211,8 +212,6 @@ void ConfigurePins(void)
 	TRISAbits.TRISA1 = 0; // pin  3 of DIP28
 	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
 	TRISBbits.TRISB1 = 0; // pin  5 of DIP28
-	TRISAbits.TRISA2 = 0; // pin  9 of DIP28
-	TRISAbits.TRISA3 = 0; // pin 10 of DIP28
 	TRISBbits.TRISB4 = 0; // pin 11 of DIP28
 		
 	TRISBbits.TRISB15 = 0;
@@ -221,6 +220,29 @@ void ConfigurePins(void)
 	TRISBbits.TRISB14 = 0;
 	LATBbits.LATB14 = 0;
 	INTCONbits.MVEC = 1;
+	
+	TRISAbits.TRISA2 = 0;
+	TRISAbits.TRISA3 = 0;
+	TRISBbits.TRISB13 = 0;
+	TRISBbits.TRISB12 = 0;
+	TRISBbits.TRISB10 = 0;
+	TRISAbits.TRISA4 = 0;
+
+	LATAbits.LATA2 = 0;
+	LATAbits.LATA3 = 0;
+	LATBbits.LATB13 = 0;
+	LATBbits.LATB12 = 0;
+
+	LATBbits.LATB10 = 0;
+	LATAbits.LATA4 = 0;
+	
+	LCD_D4 = 0;
+	LCD_D5 = 0;
+	LCD_D6 = 0;
+	LCD_D7 = 0;
+	
+	LCD_RS = 0;
+	LCD_E = 0;
 }
 
 /*    // Configure pins as analog inputs
@@ -257,22 +279,21 @@ void ConfigurePins(void)
 	
 //...............................................................arm related.................................
 void MoveArm(){
-		ISR_pwm1=150, ISR_pwm2=60;
-		waitms(1000);
-		ISR_pwm2=250;
-		waitms(1000);
-		ISR_pwm1=210;
-		waitms(1000);
-		ISR_pwm1=170;
-		waitms(1000);	
-		ISR_pwm2=100;
-		waitms(1000);
-		ISR_pwm1=100;
-      waitms(1000);
+	ISR_pwm1=150, ISR_pwm2=60;
+	waitms(500);
+	ISR_pwm2=250;
+	waitms(500);
+	ISR_pwm1=210;
+	waitms(500);
+	ISR_pwm1=170;
+	waitms(500);	
+	ISR_pwm2=100;
+	waitms(500);
+	ISR_pwm1=100;
+    waitms(500);
 }  
  
 void ArmInit(){
-
 
 	waitms(100);
 	ISR_pwm1=150;
@@ -370,31 +391,6 @@ void MoveSlow(){
 int bitExtracted(int number, int k, int p) //needs an int
 {
     return (((1 << k) - 1) & (number >> (p - 1)));
-}
-
-void pin_innit(void)
-{
-	TRISBbits.TRISB15 = 0;
-	TRISBbits.TRISB14 = 0;
-	TRISBbits.TRISB13 = 0;
-	TRISBbits.TRISB12 = 0;
-	TRISAbits.TRISA2 = 0;
-	TRISAbits.TRISA3 = 0;
-	
-	LATBbits.LATB15 = 0;
-	LATBbits.LATB14 = 0;
-	LATBbits.LATB13 = 0;                                                                                                                                          
-	LATBbits.LATB12 = 0;
-	LATAbits.LATA2 = 0; 
-	LATAbits.LATA3 = 0;
-	
-	LCD_D4 = 0;
-	LCD_D5 = 0;
-	LCD_D6 = 0;
-	LCD_D7 = 0;
-	
-	LCD_RS = 0;
-	LCD_E = 0;
 }
 
 void LCD_pulse(void){
@@ -524,6 +520,7 @@ void main(void)
 	int EdgeCounter=0;
 	volatile unsigned long t=0;
     int adcval;
+    char tempstring []= "# of Coins: " ;
 
     long int v;
 	unsigned long int count, f;
@@ -539,15 +536,14 @@ void main(void)
     ConfigurePins();
  
     ADCConf(); // Configure ADC    
-//	pin_innit();
-//	LCD_4BIT();
-//	WriteCommand(0x01);
+	LCD_4BIT();
+	WriteCommand(0x01);
 //	float EdgeVoltage;
-//	MoveSlow();	
  
 	while(1)
-	{
-		LCDprint("# of Coins:",1,1);
+	{	LCDprint("# of Coins",1,1);
+		sprintf(tempstring,"%d",Coins);
+		LCDprint(tempstring,2,1);
 		EdgeCounter++;
 		EdgeDetected=getEdge();
 		EdgeDetected2=getEdge2();
@@ -558,37 +554,37 @@ void main(void)
 
 //..............................................................turning to pick coin
 		MoveForward(); 
-		printf("%d\r",CoinDetected);
+		//printf("%d\n",CoinDetected);
 		if(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
 			//while(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
-			printf("%d\r",CoinDetected);
+			printf("%d\n",CoinDetected);
 		//	}
 
    		}
    		else if (CoinDetected==1){
-   		//	SetupTimer1();
-		//	__builtin_enable_interrupts();
+   			SetupTimer1();
+			__builtin_enable_interrupts();
    			Coins=Coins+1;
    			MoveBackward();
    			waitms(50);
    			Stop();
    			TurnDirectionForCoin();
    			Stop();
-   			//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
+   			waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    			StartMagnet();
-   		//	MoveArm();
-   			waitms(2000);
+   			MoveArm();
+   			waitms(1000);
    			StopMagnet();
-   		//	ArmInit();		
+   			ArmInit();		
    			__builtin_disable_interrupts();
-   		}
+ 		}  
  		else if (EdgeDetected>EdgeVoltage|| EdgeDetected2>EdgeVoltage2){
-   			printf("Edge detected");
+ 			printf("Edge detected");
    			MoveBackward();
-   			waitms(500);
-   			Stop();
-   			TurnDirectionForWall();
-   			waitms(200);//Time needed to finish the turn direction operatoion(for picking coin)
+			waitms(500);
+ 			Stop();
+ 			TurnDirectionForWall();
+ 			waitms(200);//Time needed to finish the turn direction operatoion(for picking coin)
    			
    		}
 		
@@ -596,8 +592,6 @@ void main(void)
     		EdgeDetected2=0;
    			CoinDetected=0;
    		
-  	// 	sprintf(buf,"%4.3f",Coins);
-	//	LCDprint(buf,2,1);
 		if (Coins==20)
 			return;	
 	}
