@@ -19,11 +19,11 @@
 
 
 #define EdgeVoltage 1.2
-#define EdgeVoltage2 0.2
+#define EdgeVoltage2 1.4
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
-#define NoCoinPeriod 20000.0
+#define NoCoinPeriod 19800.0
 
 
 #define LCD_D4 LATBbits.LATB15
@@ -77,7 +77,7 @@ void SetupTimer1 (void)
 	IEC0bits.T1IE = 1;
 	
 	INTCONbits.MVEC = 1; //Int multi-vector
-	__builtin_enable_interrupts();
+
 }
 
 // Use the core timer to wait for 1 ms.
@@ -265,9 +265,9 @@ void MoveArm(){
 		waitms(1000);
 		ISR_pwm1=170;
 		waitms(1000);	
-		ISR_pwm2=90;
+		ISR_pwm2=100;
 		waitms(1000);
-		ISR_pwm1=110;
+		ISR_pwm1=100;
       waitms(1000);
 }  
  
@@ -310,7 +310,7 @@ void MoveBackward(){
 //wheel 2
 	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
 	TRISBbits.TRISB1 = 1; // pin  5 of DIP28
-	waitms(500);
+	waitms(175);
 }
 
 void Stop(){
@@ -353,7 +353,7 @@ void TurnDirectionForWall(){
 //	TRISBbits.TRISB4=!TRISBbits.TRISB4;
 //	}
 	
-	waitms(100);//Time needed to turn to pick a coin
+	waitms(75);//Time needed to turn to pick a coin
 }
 
 
@@ -365,7 +365,6 @@ void MoveSlow(){
 	MoveForward();
 	
 }
-
 
 //............................................................lcd display...................
 int bitExtracted(int number, int k, int p) //needs an int
@@ -470,7 +469,6 @@ int getEdge(){
 	EdgeCounter=0;
     int adcval;
     float voltage;
-    	MoveSlow();	
 	while(EdgeCounter<50001){
 	EdgeCounter++;	 	
 		if(EdgeCounter==50000)
@@ -478,7 +476,7 @@ int getEdge(){
         	adcval = ADCRead(5); // note that we call pin AN5 (RB3) by it's analog number
         	voltage=adcval*3.3/1023.0;
 			EdgeCounter = 0;
-			printf("Volage: %f\n",voltage);
+			printf("Volage: %f\r\n",voltage);
 				return voltage;
 }}
 }
@@ -492,10 +490,10 @@ int getEdge2(){
 	EdgeCounter++;	
 		if(EdgeCounter==50000)
 		{
-        	adcval = ADCRead(6); // note that we call pin AN5 (RB2) by it's analog number
+        	adcval = ADCRead(4); // note that we call pin AN5 (RB2) by it's analog number
         	voltage=adcval*3.3/1023.0;
 			EdgeCounter = 0;
-			printf("Volage: %f\n",voltage);
+			printf("Volage2: %f\r\n",voltage);
 				return voltage;
 }}
 }
@@ -505,7 +503,7 @@ int getCoin(){
 	CoinCounter=GetPeriod(20);
 	printf("%d\n",CoinCounter);
 	if(CoinCounter>0)
-		{	  	   		MoveSlow();	
+		{	  	   		
 //			T=(CoinCounter*2.0)/(SYSCLK*100.0);
 //			f=1/T;
 			if(CoinCounter<NoCoinPeriod)
@@ -539,7 +537,7 @@ void main(void)
 	int Coins=0;
     UART2Configure(115200);  // Configure UART2 for a baud rate of 115200
     ConfigurePins();
-    SetupTimer1(); 
+ 
     ADCConf(); // Configure ADC    
 //	pin_innit();
 //	LCD_4BIT();
@@ -559,16 +557,17 @@ void main(void)
 //..............................................main function
 
 //..............................................................turning to pick coin
-//		MoveSlow();	
-		printf("%d\r\n",CoinDetected);
+		MoveForward(); 
+		printf("%d\r",CoinDetected);
 		if(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
 			//while(CoinDetected==0 && EdgeDetected<1.0&& EdgeDetected2<0.2){
-			printf("%d\r\n",CoinDetected);
-			MoveForward(); 
+			printf("%d\r",CoinDetected);
 		//	}
 
    		}
    		else if (CoinDetected==1){
+   		//	SetupTimer1();
+		//	__builtin_enable_interrupts();
    			Coins=Coins+1;
    			MoveBackward();
    			waitms(50);
@@ -577,11 +576,11 @@ void main(void)
    			Stop();
    			//waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    			StartMagnet();
-   //			MoveArm();
+   		//	MoveArm();
    			waitms(2000);
    			StopMagnet();
-   			ArmInit();	
-   			MoveForward(); 	
+   		//	ArmInit();		
+   			__builtin_disable_interrupts();
    		}
  		else if (EdgeDetected>EdgeVoltage|| EdgeDetected2>EdgeVoltage2){
    			printf("Edge detected");
@@ -590,7 +589,6 @@ void main(void)
    			Stop();
    			TurnDirectionForWall();
    			waitms(200);//Time needed to finish the turn direction operatoion(for picking coin)
-   			MoveForward(); 
    			
    		}
 		
@@ -598,38 +596,9 @@ void main(void)
     		EdgeDetected2=0;
    			CoinDetected=0;
    		
-  // 		sprintf(buf,"%4.3f",Coins);
+  	// 	sprintf(buf,"%4.3f",Coins);
 	//	LCDprint(buf,2,1);
-
-   		
-   		
- //Turning if wall  		
-
-
-//		test();	
-//...........................................arm test function...................../
-//MoveArm();
-//waitms(4000);
-//ArmInit();
-//waitms(1000)
-//	if (CoinDetected=0){
-//	Stop();
-//	StartMagnet();
-//	}
-//	else{
-//	ArmInit();
-//	waitms(1000);
-//	MoveArm();
-//
-//	StartMagnet();
-//	waitms(1000);
-
-//	ArmInit();
-//	waitms(1000);
-//	CoinDetected=0;	
-//	}
-	
-	
-
+		if (Coins==20)
+			return;	
 	}
 }
