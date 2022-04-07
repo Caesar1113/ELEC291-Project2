@@ -18,8 +18,8 @@
 #define Baud2BRG(desired_baud)( (SYSCLK / (16*desired_baud))-1)
 
 
-#define EdgeVoltage 0.6
-#define EdgeVoltage2 0.6
+#define EdgeVoltage 0.1
+#define EdgeVoltage2 0.1
 #define MinCoin1Period 19040
 #define MaxCoin1period 19060
 
@@ -34,6 +34,7 @@
 #define LCD_RS LATBbits.LATB10 
 //RW is not connected for this code
 #define LCD_E  LATAbits.LATA4
+#define LED LATBbits.LATB6
 
 #define CHARS_PER_LINE 16
 
@@ -227,11 +228,13 @@ void ConfigurePins(void)
 	TRISBbits.TRISB12 = 0;
 	TRISBbits.TRISB10 = 0;
 	TRISAbits.TRISA4 = 0;
+	TRISBbits.TRISB6 = 0;
 
 	LATAbits.LATA2 = 0;
 	LATAbits.LATA3 = 0;
 	LATBbits.LATB13 = 0;
 	LATBbits.LATB12 = 0;
+	LATBbits.LATB6 = 0;
 
 	LATBbits.LATB10 = 0;
 	LATAbits.LATA4 = 0;
@@ -280,18 +283,34 @@ void ConfigurePins(void)
 //...............................................................arm related.................................
 void MoveArm(){
 	ISR_pwm1=150, ISR_pwm2=60;
+	LED=!LED;
 	waitms(500);
+	LED=!LED;
 	ISR_pwm2=250;
 	waitms(500);
-	ISR_pwm1=210;
+	LED=!LED;
+	ISR_pwm1=230;
 	waitms(500);
+	LED=!LED;
 	ISR_pwm1=170;
-	waitms(500);	
-	ISR_pwm2=100;
 	waitms(500);
-	ISR_pwm1=100;
+	LED=!LED;
+	while (ISR_pwm2 > 100){
+		ISR_pwm2--;
+		waitms(6);
+	}	
+//	ISR_pwm2=100;
+	waitms(500);
+	LED=!LED;
+	while (ISR_pwm1 > 100){
+		ISR_pwm1--;
+		waitms(6);
+	}	
+	//ISR_pwm1=100;
     waitms(500);
+    LED = 0;
 }  
+
  
 void ArmInit(){
 
@@ -359,7 +378,22 @@ void TurnDirectionForCoin(){
 	
 	waitms(20);//Time needed to turn to pick a coin
 }
+void TurnAnotherDirection(){
+//wheel 1
 
+// int t=0;
+	TRISAbits.TRISA0 = 0;
+	TRISAbits.TRISA1 = 1;
+//wheel 2
+	TRISBbits.TRISB0 = 0; // pin  4 of DIP28
+	TRISBbits.TRISB1 = 1; // pin  5 of DIP28
+	
+//	for(t=0;t<=5000;t++){
+//	TRISBbits.TRISB4=!TRISBbits.TRISB4;
+//	}
+	
+	waitms(20);//Time needed to turn to pick a coin
+}
 void TurnDirectionForWall(){
 //wheel 1
 
@@ -511,6 +545,15 @@ int getCoin(){
 		return 0;
 }
 
+void dance(){
+
+	TurnDirectionForCoin();
+	waitms(2000);
+	TurnAnotherDirection();
+	waitms(2000);
+	Stop();
+
+}
 
 // In order to keep this as nimble as possible, avoid
 // using floating point or printf() on any of its forms!
@@ -566,13 +609,13 @@ void main(void)
 			__builtin_enable_interrupts();
    			Coins=Coins+1;
    			MoveBackward();
-   			waitms(50);
+   			waitms(55);
    			Stop();
    			TurnDirectionForCoin();
    			Stop();
    			waitms(60);//Time needed to finish the turn direction operatoion(for picking coin)
    			StartMagnet();
-   			MoveArm();
+  			MoveArm();
    			waitms(1000);
    			StopMagnet();
    			ArmInit();		
@@ -593,6 +636,12 @@ void main(void)
    			CoinDetected=0;
    		
 		if (Coins==20)
-			return;	
+		{
+			LCDprint("Mission Complete",1,1);
+			LCDprint("            ",2,1);
+			dance();
+			Stop();
+			return;
+		}
 	}
 }
