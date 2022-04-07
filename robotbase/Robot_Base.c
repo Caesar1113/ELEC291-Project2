@@ -1,3 +1,25 @@
+/*
+Project Group Members:
+Sizhe Yan 22164982
+John Ye 43883347
+Xuchen Zhang 61531547
+Jack Ye 12815999
+Shuo Wu 30408751
+M.Berke Karadayi 77766392
+
+Additional Notes & Bonus Features:
+All basic function are completed(To speed up the collection process, we feed the coins to the robot in a reasonable manners to shorten the video)
+
+Bonus features including LCD display, displaying the number of coins collected and when it's finished, the LCD screen shows "Mission Complete". 
+Also, when picking up the coins, LED will blink. We also control the speed of the arm rotates. 
+When it's collect the coin, it will slow down to make it more reliable, 
+when the arm is repositioning, it goes fast to shorten the time to collect the coins. 
+In the end, the robot will dance to celebrate (robot move back and forth).
+
+https://youtu.be/7JAxhl0nGXI link of our video in YouTube
+Here is the backup link of our demo video https://b23.tv/uFK1Qi7
+*/
+
 #include <XC.h>
 #include <sys/attribs.h>
 #include <stdio.h>
